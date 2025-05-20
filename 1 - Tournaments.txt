@@ -1,0 +1,54 @@
+
+Tournaments
+
+
+1. Tournament Creation
+ The Tournament Organizer (TO) creates a tournament. The only required field is the name.
+ After creation, the TO adds the tournament rules and the maximum number of players.
+
+
+2. Player Registration The TO sets the date from which registration is allowed.
+
+A Tournament Player (TP) can register for the tournament after the registration start date by selecting the faction they will play and confirming that they accept the tournament rules.
+
+If the TP returns to this page later, a message is shown stating that the player is already registered, with an option to cancel their registration.
+
+If the number of registered players is equal to or exceeds the limit, the player is offered to join the waiting list.
+
+At any time before registration ends, the TP must upload a roster file.
+
+Both registered and unregistered players, as well as the TO, can view a list of registered players and their chosen factions.
+
+The TO can add or remove any already registered player.
+
+
+3. Registration End
+ The TO sets the registration end date.
+
+After this date, the TP may only make changes with the TO's permission.
+
+
+4. Tournament Start
+ The TO sets the tournament start date and time.
+
+After this, pairings and games for the first round can be generated randomly.
+ For subsequent rounds, the Swiss system will be used based on previous results.
+
+The TO can assign the primary mission, rule, deployment, and layout used for each game.
+
+The TO can assign or change players for each game.
+
+The TO can assign or change the winner for each game.
+
+Both registered and unregistered players can view the list of games in read-only mode. 
+
+For each game, the paired players, primary mission, rule, deployment, and layout are shown.
+
+Both registered and unregistered players, as well as the TO, can view a list of players sorted by ranking.
+
+
+5. Tournament End The TO sets the date and time of the tournament’s end.
+
+
+
+Notes: How is it best to display errors?

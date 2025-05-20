@@ -1,0 +1,46 @@
+
+Crusade Campaign
+
+This is a combination of a "Crusade" and a "Tournament". It involves playing many games over a long period of time—possibly several months—like a tournament, but using a single force, as in a Crusade, which progresses over time.
+
+The idea is that there's a planet (or several planets, or a whole galaxy, etc.) being fought over. The planet is divided into sectors.
+
+Each game is a battle for a sector.
+
+After each game, the Campaign Master (CM) records the progress.
+Here's my very rough draft to help you understand the concept:
+https://www.reddit.com/r/SmartRoster/s/V9JxM98BCX
+
+
+Right now, I only have a vision from the CM's perspective.
+
+There should be:
+
+* A map with current progress.
+* A campaign status log (date, short description), showing the current state. For example:
+
+  * 01-01-2025: All players must finish their turns
+  * 03-03-2025: Map state updated
+
+* A player list (player, alliance, role, faction, timezone)
+* Ability to add, remove, or update player information
+* A list of player alliances (name, number of players)
+* Ability to create, delete, or update alliances
+* A list of past and upcoming games (name, winner, date)
+
+Another difference from standard games is that the CM can create custom rules, missions, and more.
+
+Here’s what should be possible to create/delete/edit:
+
+* Primary missions
+* Secondary missions
+* Game rules
+* Relics
+* Ranks
+* Battle traits
+* Battle scars
+
+My draft: https://www.reddit.com/r/SmartRoster/s/jOmxO1VHr0
+
+
+

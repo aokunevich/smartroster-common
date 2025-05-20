@@ -1,0 +1,14 @@
+
+Live Tournaments
+
+Once the tournament status changes to “started,” a link to the Live page becomes available.
+ Since a tournament includes multiple games happening at the same time, this page allows you to track player progress.
+
+A table is available showing overall player standings: placement, wins, draws, and losses.
+
+You can also view detailed information for each individual game: Players, primary mission, total score. 
+
+The score is broken down by round, including: secondary missions, points for each secondary mission, and points for the primary mission.
+
+The information is updated in real time (via long polling).
+

@@ -1,0 +1,26 @@
+
+Rosters
+
+
+The user selects an available faction.
+ A list of available units appears, from which the user can choose the units they plan to use.
+
+For each unit, the user can:
+	•	Select the number of models of each type
+	•	View the cost based on the number of selected models
+	•	Choose ranged/melee weapons for each model
+	•	Specify the quantity for each weapon
+	•	Create a "duplicate"
+	•	Mark as the Warlord
+
+
+Features include:
+	•	Unit name search
+	•	Option to hide weapons
+	•	Option to show only selected units in the list
+
+
+A quick preview of selected units and the total cost is always available.
+
+
+
