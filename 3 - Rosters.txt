@@ -3,7 +3,7 @@ Rosters
 
 
 The user selects an available faction.
- A list of available units appears, from which the user can choose the units they plan to use.
+A list of available units appears, from which the user can choose the units they plan to use.
 
 For each unit, the user can:
 	•	Select the number of models of each type

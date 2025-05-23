@@ -1,7 +1,7 @@
 
 Crusade
 
-Some comments for you: “It’s more of a narrative campaign, where you set up an army roster and as games go on they earn honours, distinctions, and injuries based on how they fare. Think of it as a version with meta-progression and RPG elements compared to matched play’s pick-up, one-off games.”
+Some comments for you:“It’s more of a narrative campaign, where you set up an army roster and as games go on they earn honours, distinctions, and injuries based on how they fare.Think of it as a version with meta-progression and RPG elements compared to matched play’s pick-up, one-off games.”
 
 Player will have multiple forces.
 
@@ -14,7 +14,7 @@ Each force has the following:
 	•	Notes
 
 List of cards
- List of rosters (see “rosters” — the difference is that in this case, the roster is composed only of cards from this force)
+List of rosters (see “rosters” — the difference is that in this case, the roster is composed only of cards from this force)
 
 Each card consists of:
 	•	Name

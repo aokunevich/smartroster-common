@@ -3,11 +3,11 @@ Tournaments
 
 
 1. Tournament Creation
- The Tournament Organizer (TO) creates a tournament. The only required field is the name.
- After creation, the TO adds the tournament rules and the maximum number of players.
+The Tournament Organizer (TO) creates a tournament. The only required field is the name.
+After creation, the TO adds the tournament rules and the maximum number of players.
 
 
-2. Player Registration The TO sets the date from which registration is allowed.
+2. Player RegistrationThe TO sets the date from which registration is allowed.
 
 A Tournament Player (TP) can register for the tournament after the registration start date by selecting the faction they will play and confirming that they accept the tournament rules.
 
@@ -23,16 +23,16 @@ The TO can add or remove any already registered player.
 
 
 3. Registration End
- The TO sets the registration end date.
+The TO sets the registration end date.
 
 After this date, the TP may only make changes with the TO's permission.
 
 
 4. Tournament Start
- The TO sets the tournament start date and time.
+The TO sets the tournament start date and time.
 
 After this, pairings and games for the first round can be generated randomly.
- For subsequent rounds, the Swiss system will be used based on previous results.
+For subsequent rounds, the Swiss system will be used based on previous results.
 
 The TO can assign the primary mission, rule, deployment, and layout used for each game.
 
@@ -47,8 +47,8 @@ For each game, the paired players, primary mission, rule, deployment, and layout
 Both registered and unregistered players, as well as the TO, can view a list of players sorted by ranking.
 
 
-5. Tournament End The TO sets the date and time of the tournament’s end.
+5. Tournament EndThe TO sets the date and time of the tournament’s end.
 
 
 
-Notes: How is it best to display errors?
+Notes:How is it best to display errors?
