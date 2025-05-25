@@ -3,13 +3,6 @@ git -c http.sslVerify=false push
 git -c http.sslVerify=false pull
 
 
-hofhap-fikCer-3gevpe
-PT w: glpat-WK1squaysuwa9Aqc6UeP
-PT w-ui: glpat-rXYs_Zw2_qyBDmkcYyk8
-
-
-zopgen-6birqu-padryD
-
 
 ----
 
