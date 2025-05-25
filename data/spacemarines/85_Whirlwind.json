@@ -1,0 +1,83 @@
+{
+  "id" : "679ed82c-98a0-4ef1-b275-1ac1c1ded817",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 180
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Whirlwind",
+  "m": "9\"",
+  "t": "11",
+  "sv": "3+",
+  "w": "11",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Whirlwind",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Whirlwind vengeance launcher",
+      "range": "72\"",
+      "a": "D6+3",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Whirlwind",
+      "wargear": [
+        "Whirlwind vengeance launcher",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

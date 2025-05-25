@@ -1,0 +1,103 @@
+{
+  "id" : "b91dd325-e48b-48ef-aefa-2e4566c88e4a",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 240
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Land Raider",
+  "m": "10\"",
+  "t": "12",
+  "sv": "2+",
+  "w": "16",
+  "ld": "6+",
+  "oc": "5",
+  "composition": [
+    {
+      "name": "Land Raider",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Godhammer lascannon",
+      "range": "48\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "6",
+      "ws": "4+",
+      "s": "8",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Land Raider",
+      "wargear": [
+        "Twin heavy bolter",
+        "Godhammer lascannon",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "version": "10",
+  "id": "86fe5d0a-c057-4c21-94e7-b1cb643ad772",
+  "faction": "DeathGuard",
+  "name": "Noxious Blightbringer",
+  "keywords": [
+    "Character"
+  ],
+  "prices": [
+    {
+      "count": 1,
+      "price": 50
+    }
+  ],
+  "m": "5\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Noxious Blightbringer",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "ws": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "ws": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Cursed plague bell",
+      "range": "Melee",
+      "a": "5",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Noxious Blightbringer",
+      "wargear": [
+        "Plasma pistol",
+        "Cursed plague bell"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Plague Marines"
+    ],
+    "pair": [
+      "Foul Blightspawn",
+      "Biologus Putrifier",
+      "Tallyman",
+      "Plague Surgeon"
+    ]
+  }
+}

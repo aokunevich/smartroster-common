@@ -1,0 +1,124 @@
+Mission Rule
+CHOSEN BATTLEFIELD
+Both sides have scouted the area extensively, pinpointing the exact location of vital sites.
+
+In this mission, objective markers are not placed as shown on the Deployment card drawn. Instead, players roll off at the start of the Place Objective Markers step, then alternate setting up objective markers, one at a time, starting with the winner of the roll off.
+
+One objective marker must be placed wholly within each deployment zone, and the remaining objective markers must be placed wholly within No Man’s Land, as shown on the Deployment card drawn. Objective markers must be placed more than 6" away from any battlefield edge and more than 9" away from all other objective markers.
+
+If for whatever reason it is not possible to set up an objective marker as described above, it is not placed on the battlefield.
+
+If any rules require players to set up additional objective markers (e.g. Hidden Supplies) during the Place Objective Markers step, players set them up as described on this Mission Rule card.
+
+If any rules instruct players to remove one or more objective markers, do so after setting them all up.
+
+
+
+
+Mission Rule
+SCRAMBLER FIELDS
+Scrambler fields and more esoteric devices have been activated in this area, restricting the use of advanced stealth and teleportation technologies.
+
+In this mission:
+Players’ units with the Infiltrators ability cannot be set up within range of an objective marker that is either in No Man’s Land or their opponent’s deployment zone.
+Players’ units with the Scouts ability that make a move before the first turn begins cannot end that move within range of an objective marker that is either in No Man’s Land or their opponent’s deployment zone.
+If any rule is used to redeploy a unit, that rule cannot be used to set up that unit within range of an objective marker in No Man’s Land.
+When a player’s Reserves and Strategic Reserves units are set up on the battlefield, they cannot be set up within range of an objective marker that is either in No Man’s Land or their opponent’s deployment zone.
+
+
+
+
+Mission Rule
+CHILLING RAIN
+Intense winds gust across the battlefield, whipping through the shattered remains of bombed ruins and heavy with the stench of death. Icy rain drenches and chills the warriors, only adding to their misery and discomfort.
+
+In this mission, no additional mission rules apply.
+
+
+
+Mission Rule
+DELAYED RESERVES
+Enemy interceptors roam the skies, strafing and bombing any of our reinforcement units they discover. Our forces will inevitably be delayed as they attempt to dodge these vicious aerial patrols.
+
+In this mission, until the start of the third battle round, each time a Reserves or Strategic Reserves unit wishes to arrive on the battlefield, the controlling player must make a Reserves roll for it. To do so, that player rolls one D6: on a 3+, that unit arrives on the battlefield; otherwise, the Reserves roll fails and that unit does not arrive this turn.
+
+
+
+Mission Rule
+SWEEP AND CLEAR
+Forces have been ordered to perform a firesweep of this battlefield, methodically cleansing strategic sites of enemies one at a time before moving on.
+
+In this mission, if a player controls an objective marker at the end of their Command phase, that objective marker remains under their control, even if they have no models within range of it, unless their opponent controls it at the end of any subsequent Command phase.
+
+
+
+
+
+
+Mission Rule
+MAELSTROM OF BATTLE
+Little respite or sanctuary is available across the battlefields of the 41st Millennium.
+
+In this mission, shuffle the remaining Mission Rule cards together before drawing 2 new Mission Rule cards.
+
+If either of these new Mission Rule cards is Chilling Rain, discard that Mission Rule card and draw 2 additional new Mission Rule cards (for a total of 3 new Mission Rule cards).
+
+Apply all the drawn Mission Rule cards to the battle.
+
+
+
+
+
+Mission Rule
+HIDDEN SUPPLIES
+Reconnaissance units have uncovered a hidden cache of ammunition, fuel and rations in this war zone.
+
+In this mission, players must set up one additional objective marker in No Man’s Land.
+
+Unless the Chosen Battlefield mission rule is also in effect, before setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6" directly towards one of the corners of the battlefield (if No Man’s Land touches any of the comers of the battlefield, you must move the objective marker towards one of those corners). Players then set up the new objective marker 6" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker.
+
+
+
+
+Mission Rule
+SUPPLY LINES
+Enemy infiltrators are attempting to sabotage and disrupt your supply lines. Maintain vigilance to secure lines of communication and safeguard vital strategic resources.
+
+In this mission, if a player controls the objective marker in their own deployment zone at the start of their Command phase, they roll one D6: on a 4+, that player gains 1CP.
+
+
+
+Mission Rule
+MINEFIELDS
+Buried ordnance and hidden boody traps litter this battlefield, posing a threat to all units that advance recklessly and without due care.
+
+In this mission, each time an Advance roll of 6 is made for a unit, that unit suffers 1 mortal wound.
+
+
+
+
+Mission Rule
+SECRET INTEL
+Our spies and recon teams have reported back with secret intelligence, allowing us to better coordinate our next tactical move.
+
+In this mission, in each player’s Command phase, the first time that player draws Secondary Mission cards that phase, that player can draw one additional Secondary Mission card, and the
+
+
+
+Mission Rule
+TARGETS OF OPPORTUNITY
+This bottle zone is replete with tactical targets of opportunity, ideal for warlords who are eager for glory.
+
+In this mission, if a player is using Tactical Missions, then each time that player determines which Secondary Mission cards are active for them, if they have fewer than 3 active Secondary Mission cards, that player draws from their Secondary Mission deck until they have 3 Secondary Mission cards.
+
+In this mission, if a player is using Fixed Missions, then in addition to the 2 Fixed Mission cards, that player will also draw cards from their Secondary Mission deck during the battle. At the end of the Select Secondary Missions step, that player should retrieve their Secondary Mission deck, remove all the Fixed Mission cards that they did not select at the start of that step, then shuffle the remaining cards. Then, at the start of each of that player’s Command phases, if that player has fewer than 3 active Secondary Mission cards (including their Fixed Mission cards), they draw from their Secondary Mission deck until they have 3 Secondary Mission cards. That player has access to the New Orders Stratagem, and can spend CP to use it after drawing their Secondary Mission cards if they wish (remember that Fixed Mission cards can
+
+
+
+Mission Rule
+VOX STATIC
+Stellar flares, malicious scrapcode and electromagnetic energy restrict communications.
+
+In th is mission, the Command Re-roll Stratagem and New Orders Stratagem both cost 2CP to use.
+
+

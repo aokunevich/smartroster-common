@@ -1,0 +1,131 @@
+{
+  "id" : "1d099e5d-57f4-4813-838d-0d39b62bb175",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 105
+    },
+    {
+      "count": 10,
+      "price": 210
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Vanguard Veteran Squad with Jump Packs",
+  "m": "12\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Vanguard Veteran Sergeant with Jump Pack",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Vanguard Veterans with Jump Packs",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Grav-pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Hand flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "range": "6\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-4",
+      "d": "D3"
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heirloom weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Vanguard Veteran Sergent with Jump Packs",
+      "wargear": [
+        "Bolt pistol",
+        "Heirloom weapon"
+      ]
+    },
+    {
+      "modelName": "Vanguard Veterans with Jump Packs",
+      "wargear": [
+        "Bolt pistol",
+        "Heirloom weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

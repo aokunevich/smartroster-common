@@ -1,0 +1,115 @@
+{
+  "id" : "b8f723be-a4d0-4896-aba3-a53116326062",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 90
+    },
+    {
+      "count": 6,
+      "price": 180
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Bladeguard Veteran Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Bladeguard Veteran Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Bladeguard Veterans",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolt pistol",
+      "range": "18\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "5",
+      "ap": "0",
+      "d": "2"
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Master-crafted power weapon",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Bladeguard Veteran Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Boltgun",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Bladeguard Veterans",
+      "wargear": [
+        "Bolt pistol",
+        "Boltgun",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

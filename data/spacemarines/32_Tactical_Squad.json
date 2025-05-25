@@ -1,0 +1,183 @@
+{
+  "id" : "1c82469e-707c-4065-9197-b0ead7555cad",
+  "keywords" : ["Battleline"],
+  "prices": [
+    {
+      "count": 10,
+      "price": 140
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Tactical Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Tactical Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Tactical Marines",
+      "countMin": 9,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Boltgun",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Grav-gun",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Meltagun",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Plasma gun",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "24\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "24\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes chainsword",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Twin lighining claws",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Tactical Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Boltgun",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Tactical Marines",
+      "wargear": [
+        "Bolt pistol",
+        "Boltgun",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

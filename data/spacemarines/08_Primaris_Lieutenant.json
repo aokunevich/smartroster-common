@@ -1,0 +1,209 @@
+{
+  "id" : "6a7529f1-6cf9-4ad6-ab9a-d67e26016bd8",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 0
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Primaris Lieutenant",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Primaris Lieutenant",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Master-crafted bolt rifle",
+      "range": "24\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "5",
+      "ap": "0",
+      "d": "2"
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "2+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "2+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Master-crafted power weapon",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "name": "Master-crafted bolt rifle",
+      "options": [
+        {
+          "name": "Plasma pistol",
+          "count": 1
+        },
+        {
+          "name": "Master-crafted power weapon",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "options": [
+        {
+          "name": "Heavy bolt pistol",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Close combat Weapon",
+      "options": [
+        {
+          "name": "Master-crafted power weapon",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Bolt pistol",
+        "Master-crafted bolt rifle",
+        "Close combat weapon"
+      ],
+      "options": [
+        {
+          "name": "Neo-volkite pistol",
+          "count": 1
+        },
+        {
+          "name": "Master-crafted power weapon",
+          "count": 1
+        },
+        {
+          "name": "Storm shield",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Primaris Lieutenant",
+      "wargear": [
+        "Bolt pistol",
+        "Master-crafted bolt rifle",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Bladeguard Veteran Squad",
+      "Hellblaster Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad"
+    ],
+    "pair": [
+      "Primaris Captain",
+      "Captain in Gravis Armour",
+      "Captain in Phobos Armour",
+      "Captain In Terminator Armor",
+      "Captain",
+      "Captain with jump pack",
+      "Captain on bike"
+    ]
+  }
+}

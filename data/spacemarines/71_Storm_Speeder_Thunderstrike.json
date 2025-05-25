@@ -1,0 +1,86 @@
+{
+  "id" : "d7042da8-0067-4bd7-9546-b983b91552ac",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 160
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Storm Speeder Thunderstrike",
+  "m": "14\"",
+  "t": "9",
+  "sv": "3+",
+  "w": "11",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Storm Speeder Thunderstrike",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Stormfury missiles",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Thunderstrike las-talon",
+      "range": "36\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "9",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Twin icarus rocket pod",
+      "range": "24\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Storm Speeder Thunderstrike",
+      "wargear": [
+        "Stormfury missiles",
+        "Thunderstrike las-talon",
+        "Twin icarus rocket pod",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

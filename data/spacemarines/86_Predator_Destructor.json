@@ -1,0 +1,101 @@
+{
+  "id" : "fee0049e-7481-45a2-a5f2-3ff89db96e0c",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 130
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Predator Destructor",
+  "m": "10\"",
+  "t": "10",
+  "sv": "3+",
+  "w": "11",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Predator Destructor",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Lascannon",
+      "range": "48\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Predator autocannon",
+      "range": "48\"",
+      "a": "4",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-1",
+      "d": "3"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Predator Destructor",
+      "wargear": [
+        "Predator autocannon",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "version": "10",
+  "id": "25d15bf2-ae20-41b0-b6a4-2f2da1590bb0",
+  "faction": "DeathGuard",
+  "name": "Death Guard Helbrute",
+  "keywords": [],
+  "prices": [
+    {
+      "count": 1,
+      "price": 130
+    }
+  ],
+  "m": "6\"",
+  "t": "9",
+  "sv": "2",
+  "w": "8",
+  "ld": "6",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Death Guard Helbrute",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "5",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Hellbrute plasma cannon",
+      "range": "36\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-3",
+      "d": "3"
+    },
+    {
+      "name": "Missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "D6",
+          "ws": "3+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "1",
+          "ws": "3+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Plague combi-bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin autocannon",
+      "range": "48\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-1",
+      "d": "3"
+    },
+    {
+      "name": "Twin lascannon",
+      "range": "48\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Twin plague heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "5",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Helbrute fist",
+      "range": "Melee",
+      "a": "5",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-2",
+      "d": "3"
+    },
+    {
+      "name": "Helbrute hammer",
+      "range": "Melee",
+      "a": "5",
+      "bs": "4+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Power scourge",
+      "range": "Melee",
+      "a": "8",
+      "bs": "3+",
+      "s": "7",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Death Guard Helbrute",
+      "wargear": [
+        "Multi-melta",
+        "Missile launcher",
+        "Close combat weapon"
+      ]
+    }
+  ],
+
+  "leaderOptions": {
+    "units": [],
+    "pair": []
+  }
+}

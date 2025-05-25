@@ -1,0 +1,73 @@
+{
+  "id" : "e5485f52-edf3-480e-af0b-22c500e7459f",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 55
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Lieutenant in Reiver Armour",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Lieutenant in Reiver Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Master-crafted special issue bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Combat Knife",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Lieutenant in Reiver Armour",
+      "wargear": [
+        "Master-crafted special issue bolt pistol",
+        "Combat knife"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Reiver Squad"
+    ],
+    "pair": [
+      "Primaris Captain",
+      "Captain in Gravis Armour",
+      "Captain in Phobos Armour",
+      "Captain In Terminator Armor",
+      "Captain",
+      "Captain with jump pack",
+      "Captain on bike"
+    ]
+  }
+}

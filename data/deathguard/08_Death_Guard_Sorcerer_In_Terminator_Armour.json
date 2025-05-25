@@ -1,0 +1,182 @@
+{
+  "version": "10",
+  "id" : "8a8f7c69-67ad-4196-8365-058685b73fd7",
+  "faction" : "DeathGuard",
+  "name": "Death Guard Sorcerer in Terminator Armour",
+  "keywords" : ["Character"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 70
+    }
+  ],
+  "m": "4\"",
+  "t": "6",
+  "sv": "2+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Death Guard Sorcerer in Terminator Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Curse of the Leper",
+      "profiles": [
+        {
+          "name": "witchfire",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "6",
+          "ap": "-1",
+          "d": "1"
+        },
+        {
+          "name": "focused witchfire",
+          "range": "24\"",
+          "a": "2D6",
+          "bs": "3+",
+          "s": "6",
+          "ap": "-2",
+          "d": "1"
+
+        }
+      ]
+    },
+    {
+      "name": "Plague combi-bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Chainfist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Force weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "D3"
+    },
+    {
+      "name": "Plague fist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Plague-encrusted exalted weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Twin lightning claws",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "type": "SINGLE",
+      "name": "Plague combi-bolter",
+      "options": [
+        {
+          "name": "Combi-weapon",
+          "count": 1
+        },
+        {
+          "name": "Plague-encrusted exalted weapon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "name": "Force weapon",
+      "options": [
+        {
+          "name": "Chainfist",
+          "count": 1
+        },
+        {
+          "name": "Plague fist",
+          "count": 1
+        },
+        {
+          "name": "Plague-encrusted exalted weapon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Plague combi-bolter",
+        "Force weapon"
+      ],
+      "options": [
+        {
+          "name": "Twin lighting claws",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Death Guard Sorcerer in Terminator Armour",
+      "wargear": [
+        "Curse of the Leper",
+        "Plague combi-bolter",
+        "Force weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Blightlord Terminators",
+      "Deathshroud Terminators"
+    ],
+    "pair": [
+    ]
+  }
+}

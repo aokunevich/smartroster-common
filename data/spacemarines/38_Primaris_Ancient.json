@@ -1,0 +1,94 @@
+{
+  "id" : "b51e6b3e-9028-4702-bf2a-66c7df43bb39",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 0
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Primaris Ancient",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Primaris Ancient",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Bolt rifle",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Power weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Primaris Ancient",
+      "wargear": [
+        "Bolt pistol",
+        "Bolt rifle",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Hellblaster Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad",
+      "Desolation Squad"
+    ],
+    "pair": [
+      "Captain",
+      "Chapter Master",
+      "Lieutenant"
+    ]
+  }
+}

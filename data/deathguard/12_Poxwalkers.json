@@ -1,0 +1,60 @@
+{
+  "version": "10",
+  "id": "d90ea020-c7ea-46d2-b672-4dc5d58550d7",
+  "faction": "DeathGuard",
+  "name": "Poxwalkers",
+  "keywords": [
+  ],
+  "prices": [
+    {
+      "count": 10,
+      "price": 50
+    },
+    {
+      "count": 20,
+      "price": 100
+    }
+  ],
+  "m": "4\"",
+  "t": "4",
+  "sv": "7+",
+  "w": "1",
+  "ld": "8+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Poxwalkers",
+      "countMin": 10,
+      "countMax": 20
+    }
+  ],
+  "rangedWeapons": [
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Improvised weapon",
+      "range": "Melee",
+      "a": "2",
+      "bs": "5+",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Poxwalkers",
+      "wargear": [
+        "Improvised weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

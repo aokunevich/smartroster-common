@@ -1,0 +1,82 @@
+{
+  "version": "10",
+  "id": "7ba71399-a8a6-4762-a578-7d2ff4a54ccf",
+  "faction": "DeathGuard",
+  "name": "Death Guard Rhino",
+  "keywords": ["Dedicated Transport"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 75
+    }
+  ],
+  "m": "12\"",
+  "t": "9",
+  "sv": "3+",
+  "w": "10",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Death Guard Rhino",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Havoc launcher",
+      "range": "48\"",
+      "a": "D6",
+      "bs": "3+",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plague combi-bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armoured tracks",
+      "range": "Melee",
+      "a": "3",
+      "bs": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Death Guard Rhino",
+      "wargear": [
+        "Plague combi-bolter",
+        "Armoured tracks"
+      ]
+    }
+  ],
+
+  "leaderOptions": {
+    "units": [],
+    "pair": []
+  }
+}

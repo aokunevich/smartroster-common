@@ -1,0 +1,71 @@
+{
+  "version": "10",
+  "id" : "268648ea-9cd8-44a4-9239-409c978f9cc4",
+  "faction" : "DeathGuard",
+  "name": "Lord of Contagion",
+  "keywords" : ["Character"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 80
+    }
+  ],
+  "m": "4\"",
+  "t": "6",
+  "sv": "2+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Lord of Contagion",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Plagueblade",
+      "profiles": [
+        {
+          "name": "strike",
+          "range": "Melee",
+          "a": "5",
+          "ws": "2+",
+          "s": "8",
+          "ap": "-2",
+          "d": "3"
+        },
+        {
+          "name": "sweep",
+          "range": "Melee",
+          "a": "10",
+          "ws": "2+",
+          "s": "5",
+          "ap": "0",
+          "d": "1"
+        }
+      ]
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Lord of Contagion",
+      "wargear": [
+        "Plagueblade"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Blightlord Terminators",
+      "Deathshroud Terminators"
+    ],
+    "pair": [
+    ]
+  }
+}

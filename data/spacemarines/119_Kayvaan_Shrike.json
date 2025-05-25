@@ -1,0 +1,67 @@
+{
+  "id" : "d0703a73-5802-43c9-b191-5e60181f0123",
+  "keywords" : ["Character","Epic Hero"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 100
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Kayvann Shrike",
+  "m": "6\"",
+  "t": "4",
+  "sv": "2+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Kayvann Shrike",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Backout",
+      "range": "18\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Raven's Talons",
+      "range": "Melee",
+      "a": "7",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Kayvann Shrike",
+      "wargear": [
+        "Backout",
+        "Raven's Talons"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Squad with Jump Packs",
+      "Vanguard Veteran Squad with Jump Packs"
+    ],
+    "pair": [
+    ]
+  }
+}

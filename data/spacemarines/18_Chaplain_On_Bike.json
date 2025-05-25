@@ -1,0 +1,77 @@
+{
+  "id" : "ccd249e3-1ad7-4383-86cd-a8d0603ed228",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 75
+    }
+  ],
+  "faction" : "SpaceMarines",
+  "name": "Chaplain on Bike",
+  "m": "12\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "5",
+  "ld": "5+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Chaplain on Bike",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "range": "18\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Twin bolt rifle",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Crozius arcanum",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "6",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Chaplain on Bike",
+      "wargear": [
+        "Absolvor bolt pistol",
+        "Twin bolt rifle",
+        "Crozius arcanum"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Bike Squad",
+      "Outrider Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

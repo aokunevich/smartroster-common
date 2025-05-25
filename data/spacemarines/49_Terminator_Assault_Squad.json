@@ -1,0 +1,81 @@
+{
+  "id" : "002654a8-cf6c-4132-bce2-13ae05a8ec26",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 185
+    },
+    {
+      "count": 10,
+      "price": 370
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Terminator Assault Squad",
+  "m": "5\"",
+  "t": "5",
+  "sv": "2+",
+  "w": "3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Assault Terminator Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Assault Terminators",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Thunder hammer",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Twin lighining claws",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Assault Terminator Sergeant",
+      "wargear": [
+        "Thunder hammer",
+        "Storm shield"
+      ]
+    },
+    {
+      "modelName": "Assault Terminators",
+      "wargear": [
+        "Thunder hammer",
+        "Storm shield"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

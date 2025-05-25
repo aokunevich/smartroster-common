@@ -1,0 +1,93 @@
+{
+  "id" : "9e24f1db-f83c-4eb6-b666-172fcecc2bab",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 150
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Gladiator Valiant",
+  "m": "10\"",
+  "t": "10",
+  "sv": "3+",
+  "w": "12",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Gladiator Valiant",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Icarus rocket pod",
+      "range": "24\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "10",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Twin las-talon",
+      "range": "36\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "10",
+      "ap": "-3",
+      "d": "D6+1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored hull",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Gladiator Valiant",
+      "wargear": [
+        "Multi-melta",
+        "Twin las-talon",
+        "Armored hull"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

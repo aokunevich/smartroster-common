@@ -1,0 +1,93 @@
+{
+  "version": "10",
+  "id": "9b762ccb-c9d1-4f7d-9de4-ad60bfa2e18e",
+  "faction": "DeathGuard",
+  "name": "Mortarion",
+  "keywords": [
+    "Character",
+    "Epic Hero"
+  ],
+  "prices": [
+    {
+      "count": 1,
+      "price": 325
+    }
+  ],
+  "m": "10\"",
+  "t": "12",
+  "sv": "2+",
+  "w": "16",
+  "ld": "5+",
+  "oc": "6",
+  "composition": [
+    {
+      "name": "Mortarion",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Rotwind",
+      "range": "18\"",
+      "a": "D6+3",
+      "bs": "2+",
+      "s": "7",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "The Lantern",
+      "range": "18\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "9",
+      "ap": "-3",
+      "d": "3"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Silence",
+      "profiles": [
+        {
+          "name": "strike",
+          "range": "Melee",
+          "a": "5",
+          "ws": "2+",
+          "s": "14",
+          "ap": "-3",
+          "d": "4"
+        },
+        {
+          "name": "sweep",
+          "range": "Melee",
+          "a": "15",
+          "ws": "2+",
+          "s": "7",
+          "ap": "-1",
+          "d": "1"
+        }
+      ]
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Mortarion",
+      "wargear": [
+        "Rotwind",
+        "The Lantern",
+        "Silence"
+      ]
+    }
+  ],
+
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

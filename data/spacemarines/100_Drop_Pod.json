@@ -1,0 +1,65 @@
+{
+  "id" : "5b93b75e-b46a-4f78-b271-b06e14e7aa3c",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 70
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Drop Pod",
+  "m": "-",
+  "t": "7",
+  "sv": "3+",
+  "w": "8",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Drop Pod",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Deathwind launcher",
+      "range": "12\"",
+      "a": "D6+1",
+      "bs": "3+",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Drop Pod",
+      "wargear": [
+        "Storm bolter"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id" : "89925e7a-8509-4a61-83ef-2bd776ee6653",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 130
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Storm Speeder Hailstrike",
+  "m": "14\"",
+  "t": "9",
+  "sv": "3+",
+  "w": "11",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Storm Speeder Hailstrike",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "range": "18\"",
+      "a": "D6",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "range": "24\"",
+      "a": "8",
+      "bs": "3+",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin ironhail heavy stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Storm Speeder Hailstrike",
+      "wargear": [
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

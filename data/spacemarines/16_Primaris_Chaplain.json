@@ -1,0 +1,73 @@
+{
+  "id" : "79935ba3-df32-48ce-8eec-cb5a716d20b3",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 0
+    }
+  ],
+
+  "faction" : "SpaceMarines",
+  "name": "Primaris Chaplain",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "5+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Primaris Chaplain",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "range": "18\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Crozius arcanum",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "6",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Primaris Chaplain",
+      "wargear": [
+        "Absolvor bolt pistol",
+        "Crozius arcanum"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Bladeguard Veteran Squad",
+      "Hellblaster Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

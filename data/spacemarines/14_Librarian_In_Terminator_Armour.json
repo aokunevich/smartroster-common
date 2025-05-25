@@ -1,0 +1,106 @@
+{
+  "id" : "fef2330e-5b20-406d-92be-dceedea5aaaa",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 75
+    }
+  ],
+  "faction" : "SpaceMarines",
+  "name": "Librarian in Terminator Armour",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Librarian in Terminator Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Smite",
+      "profiles": [
+        {
+          "name": "witchfire",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "5",
+          "ap": "-1",
+          "d": "D3"
+        },
+        {
+          "name": "focused",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "6",
+          "ap": "-2",
+          "d": "D3"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Force weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "D3"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "name": "Combi-weapon"
+    },
+    {
+      "name" :"Storm bolter"
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Librarian in Terminator Armour",
+      "wargear": [
+        "Smite",
+        "Force weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Relic Terminator Squad",
+      "Terminator Assault Squad",
+      "Terminator Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

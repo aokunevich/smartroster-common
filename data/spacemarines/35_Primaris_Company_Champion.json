@@ -1,0 +1,71 @@
+{
+  "id" : "97b4fba4-cc6e-4e02-8694-19da4373742a",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 55
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Primaris Company Champion",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Primaris Company Champion",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Master-crafted power weapon",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Primaris Company Champion",
+      "wargear": [
+        "Bolt pistol",
+        "Master-crafted power weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Bladeguard Veteran Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

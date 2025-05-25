@@ -1,0 +1,99 @@
+{
+  "id" : "7517dfa7-95fc-40f8-a58a-0f9a137a4d58",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 100
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Land Speeder Tornado",
+  "m": "14\"",
+  "t": "7",
+  "sv": "3+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Land Speeder Tornado",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Typhoon missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "2D6",
+          "bs": "3+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "2",
+          "bs": "3+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Land Speeder Typhoon",
+      "wargear": [
+        "Heavy bolter",
+        "Typhoon missile launcher",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id" : "842dc01b-0823-436c-931a-d7374124faf9",
+  "keywords" : ["Character","Epic Hero"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 85
+    }
+  ],
+
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Adrax Agatone",
+  "m": "6\"",
+  "t": "4",
+  "sv": "2+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Adrax Agatone",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Drakkis",
+      "range": "12\"",
+      "a": "D6+3",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Malleus Noctum",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "10",
+      "ap": "-2",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Adrax Agatone",
+      "wargear": [
+        "Drakkis",
+        "Malleus Noctum"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

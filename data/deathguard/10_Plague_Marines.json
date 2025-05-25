@@ -1,0 +1,298 @@
+{
+  "version": "10",
+  "id" : "a6cd54e0-345f-4aa3-b8f1-9c96bf2485d8",
+  "faction" : "DeathGuard",
+  "name": "Plague Marines",
+  "keywords" : ["Battleline"],
+  "prices": [
+    {
+      "count": 5,
+      "price": 90
+    },
+    {
+      "count": 7,
+      "price": 125
+    },
+    {
+      "count": 10,
+      "price": 180
+    }
+  ],
+  "m": "5\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Plague Champion",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Plague Marines",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Blight launcher",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Meltagun",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Plague belcher",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plague bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plague boltgun",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plague spewer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "5",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Plasma gun",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "24",
+          "a": "1",
+          "ws": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "24",
+          "a": "1",
+          "ws": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12",
+          "a": "1",
+          "ws": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12",
+          "a": "1",
+          "ws": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bubotic weapons",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Heavy plague weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Plague knives",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "type": "SINGLE",
+      "model" : "Plague Champion",
+      "name": "Plague boltgun",
+      "options": [
+        {
+          "name": "Plague bolt pistol",
+          "count": 1
+        },
+        {
+          "name": "Plasma gun",
+          "count": 1
+        },
+        {
+          "name": "Plasma pistol",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "model" : "Plague Champion",
+      "name": "Plague knives",
+      "options": [
+        {
+          "name": "Bubotic weapons",
+          "count": 1
+        },
+        {
+          "name": "Heavy plague weapon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "model" : "Plague Marines",
+      "name": "Plague boltgun",
+      "options": [
+        {
+          "name": "Blight launcher",
+          "count": 1,
+          "rule": "ONE_FOR_FIVE"
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "model" : "Plague Marines",
+      "name": "Plague boltgun",
+      "options": [
+        {
+          "name": "Plague spewer",
+          "count": 1,
+          "rule": "ONE_FOR_FIVE"
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "model" : "Plague Marines",
+      "name": "Plague boltgun",
+      "options": [
+        {
+          "name": "Meltagun",
+          "count": 1,
+          "rule": "ONE_FOR_FIVE"
+        },
+        {
+          "name": "Plague belcher",
+          "count": 1,
+          "rule": "ONE_FOR_FIVE"
+        },
+        {
+          "name": "Plasma gun",
+          "count": 1,
+          "rule": "ONE_FOR_FIVE"
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "model" : "Plague Marines",
+      "name": "Plague boltgun",
+      "options": [
+        {
+          "name": "Bubotic weapons",
+          "count": 1,
+          "rule": "TWO_FOR_FIVE"
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "model" : "Plague Marines",
+      "name": "Plague boltgun",
+      "options": [
+        {
+          "name": "Heavy plague weapon",
+          "count": 1,
+          "rule": "TWO_FOR_FIVE"
+        }
+      ]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Plague Champion",
+      "wargear": [
+        "Plague boltgun",
+        "Plague knives"
+      ]
+    },
+    {
+      "modelName": "Plague Marines",
+      "wargear": [
+        "Plague boltgun",
+        "Plague knives"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

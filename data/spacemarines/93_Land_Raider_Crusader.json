@@ -1,0 +1,102 @@
+{
+  "id" : "a732ae24-fc80-4513-be65-f9b26de68911",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 230
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Land Raider Crusader",
+  "m": "10\"",
+  "t": "12",
+  "sv": "2+",
+  "w": "16",
+  "ld": "6+",
+  "oc": "5",
+  "composition": [
+    {
+      "name": "Land Raider Crusader",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Hurricane bolter",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+   {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin assault cannon",
+      "range": "24\"",
+      "a": "6",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "6",
+      "ws": "4+",
+      "s": "8",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Land Raider Crusader",
+      "wargear": [
+        "Hurricane bolter",
+        "Twin assault cannon",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

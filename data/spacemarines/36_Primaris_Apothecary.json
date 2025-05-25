@@ -1,0 +1,85 @@
+{
+  "id" : "30cbf444-68a8-4981-abfb-733bc99904b6",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 0
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Primaris Apothecary",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Primaris Apothecary",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "range": "18\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Reductor pistol",
+      "range": "3\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-4",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Primaris Apothecary",
+      "wargear": [
+        "Absolvor bolt pistol",
+        "Reductor pistol",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Desolation Squad",
+      "Hellblaster Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad"
+    ],
+    "pair": [
+      "Captain",
+      "Chapter Master",
+      "Lieutenant"
+    ]
+  }
+}

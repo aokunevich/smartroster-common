@@ -1,0 +1,99 @@
+{
+  "id" : "1e031707-a8b4-428c-811c-2cedae4102ef",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 85
+    },
+    {
+      "count": 10,
+      "price": 170
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Reiver Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Reiver Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Reivers",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt carbine",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Special issue bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Close knife",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Reiver Sergent",
+      "wargear": [
+        "Special issue bolt pistol",
+        "Combat Knife"
+      ]
+    },
+    {
+      "modelName": "Reivers",
+      "wargear": [
+        "Special issue bolt pistol",
+        "Combat Knife"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

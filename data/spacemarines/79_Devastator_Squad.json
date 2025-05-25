@@ -1,0 +1,196 @@
+{
+  "id" : "94ded2c9-335b-42a6-9cc9-383bc7a932e7",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 120
+    },
+    {
+      "count": 10,
+      "price": 200
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Devastator Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Devastator Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Devastator Marines",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Boltgun",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Grav-cannon",
+      "range": "24\"",
+      "a": "3",
+      "bs": "4+",
+      "s": "6",
+      "ap": "-1",
+      "d": "3"
+    },
+    {
+      "name": "Lascannon",
+      "range": "48\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "4+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "4+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "D6",
+          "bs": "4+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "1",
+          "bs": "4+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes chainsword",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Twin lighining claws",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Devastator Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Boltgun",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Devastator Marines",
+      "wargear": [
+        "Bolt pistol",
+        "Boltgun",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id" : "fd819a1f-39b3-4b95-ab47-49482272037c",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 130
+    },
+    {
+      "count": 6,
+      "price": 260
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Inceptor Squad",
+  "m": "10\"",
+  "t": "6",
+  "sv": "3+",
+  "w": "3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Inceptor Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Inceptors",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Assault bolters",
+      "range": "18\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Plasma exterminators",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "18\"",
+          "a": "2",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "2"
+        },
+        {
+          "name": "supercharge",
+          "range": "18\"",
+          "a": "2",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "3"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+     {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Inceptor Sergeant",
+      "wargear": [
+        "Assault bolters",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

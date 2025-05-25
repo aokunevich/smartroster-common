@@ -1,0 +1,68 @@
+{
+  "id" : "cdd47750-d52b-4d55-998c-64bcb1163634",
+  "keywords" : ["Character","Epic Hero"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 70
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Kor'Sarro Khan",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Kor'Sarro Khan",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Moonfang",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Kor'Sarro Khan",
+      "wargear": [
+        "Bolt pistol",
+        "Moonfang"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Intercessor Squad",
+      "Stenguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

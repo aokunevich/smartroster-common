@@ -1,0 +1,93 @@
+{
+  "id" : "d0a4f4d1-2c12-4895-be33-3f02f0dbb1ec",
+  "keywords" : ["Character","Epic Hero"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 75
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Chief Librarian Tigurius",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Chief Librarian Tigurius",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Storm of the Emperor's Wrath",
+      "profiles": [
+        {
+          "name": "witchfire",
+          "range": "18\"",
+          "a": "D6",
+          "bs": "2+",
+          "s": "6",
+          "ap": "-2",
+          "d": "2"
+        },
+        {
+          "name": "focused witchfire",
+          "range": "18\"",
+          "a": "2D6",
+          "bs": "2+",
+          "s": "6",
+          "ap": "-2",
+          "d": "2"
+        }
+      ]
+    }
+
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Rod of Tigurius",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "7",
+      "ap": "-2",
+      "d": "D3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Chief Librarian Tigurius",
+      "wargear": [
+        "Bolt pistol",
+        "Storm of the Emperor's Wrath",
+        "Rod of Tigurius"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Intercessor Squad",
+      "Sternguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

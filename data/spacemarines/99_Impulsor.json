@@ -1,0 +1,124 @@
+{
+  "id" : "d9c3ad4d-1ce3-4697-adca-7d137f5cf604",
+  "keywords" : ["Dedicated Transport"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 80
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Impulsor",
+  "m": "12\"",
+  "t": "9",
+  "sv": "3+",
+  "w": "10",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Impulsor",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bellicatus missle array",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "icarus",
+          "range": "48\"",
+          "a": "D3",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-1",
+          "d": "2"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    },
+    {
+      "name": "Fragstorm grenade launcher",
+      "range": "18\"",
+      "a": "D6",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Ironhail skytalon array",
+      "range": "36\"",
+      "a": "8",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "3",
+      "bs": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored hull",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Impulsor",
+      "wargear": [
+        "Storm bolter",
+        "Armored hull"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+git -c http.sslVerify=false clone
+git -c http.sslVerify=false push
+git -c http.sslVerify=false pull
+
+
+hofhap-fikCer-3gevpe
+PT w: glpat-WK1squaysuwa9Aqc6UeP
+PT w-ui: glpat-rXYs_Zw2_qyBDmkcYyk8
+
+
+zopgen-6birqu-padryD
+
+
+----
+
+https://www.reddit.com/r/40k_Crusade/comments/191pkhi/conquest_map_by_administratum_goonhammer/
+https://www.reddit.com/r/40k_Crusade/comments/1gkjzov/slightly_modified_crusade_league_rules_thought/
+https://www.reddit.com/r/40k_Crusade/comments/1gnbe5e/chill_tts_crusade_server/
+https://www.reddit.com/r/40k_Crusade/comments/1gnpn91/homebrew_crusade_critique/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+{
+  "id" : "d37045fb-f1de-4b54-b66e-df94184cafb3",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 85
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Eliminator Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Eliminator Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Eliminators",
+      "countMin": 2,
+      "countMax": 2
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Bolt sniper rifle",
+      "range": "36\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "3"
+    },
+    {
+      "name": "Instigator bolt carbine",
+      "range": "24\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-2",
+      "d": "3"
+    },
+    {
+      "name": "Las fusil",
+      "range": "36\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-3",
+      "d": "D6"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Eliminator Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Bolt sniper rifle",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Eliminators",
+      "wargear": [
+        "Bolt pistol",
+        "Bolt sniper rifle",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

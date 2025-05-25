@@ -1,0 +1,144 @@
+{
+  "version": "10",
+  "id" : "7d0b3dd4-4094-4625-becc-2d984f1297df",
+  "faction": "DeathGuard",
+  "name": "Death Guard Chaos Lord in Terminator Armour",
+  "keywords" : ["Character"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 85
+    }
+  ],
+  "m": "4\"",
+  "t": "6",
+  "sv": "2+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Death Guard Chaos Lord in Terminator Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plague combi-bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Chainfist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Plague fist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Plague-encrusted exalted weapon",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Twin lightning claws",
+      "range": "Melee",
+      "a": "7",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "type": "SINGLE",
+      "name": "Plague combi-bolter",
+      "options": [
+        {
+          "name": "Combi-weapon",
+          "count": 1
+        },
+        {
+          "name": "Plague-encrusted exalted weapon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SINGLE",
+      "name": "Plague-encrusted exalted weapon",
+      "options": [
+        {
+          "name": "Plague fist",
+          "count": 1
+        },
+        {
+          "name": "Chainfist",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Plague combi-bolter",
+        "Plague-encrusted exalted weapon"
+      ],
+      "options": [
+        {
+          "name": "Twin lighting claws",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Death Guard Chaos Lord in Terminator Armour",
+      "wargear": [
+        "Plague combi-bolter",
+        "Plague-encrusted exalted weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Blightlord Terminators",
+      "Deathshroud Terminators"
+    ],
+    "pair": [
+    ]
+  }
+}

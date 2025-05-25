@@ -1,0 +1,160 @@
+{
+  "id" : "550bfb0b-0f1f-4783-9699-b6cd5fa5c08f",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 260
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Stormraven Gunship",
+  "m": "20+\"",
+  "t": "10",
+  "sv": "3+",
+  "w": "14",
+  "ld": "6+",
+  "oc": "0",
+  "composition": [
+    {
+      "name": "Stormraven Gunship",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Hurricane bolter",
+      "range": "24\"",
+      "a": "6",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Stormstrike missile launcher",
+      "range": "48\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "10",
+      "ap": "-2",
+      "d": "3"
+    },
+    {
+      "name": "Twin assault cannon",
+      "range": "24\"",
+      "a": "6",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Twin heavy plasma cannon",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "36\"",
+          "a": "D3",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "2"
+        },
+        {
+          "name": "supercharge",
+          "range": "36\"",
+          "a": "D3",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "3"
+        }
+      ]
+    },
+    {
+      "name": "Twin lascannon",
+      "range": "48\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+    {
+      "name": "Twin multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Typhoon missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "2D6",
+          "bs": "3+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "2",
+          "bs": "3+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    }
+
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored hull",
+      "range": "Melee",
+      "a": "6",
+      "ws": "4+",
+      "s": "8",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Stormraven Gunship",
+      "wargear": [
+        "Stormstrike missile launchers",
+        "Twin assault cannon",
+        "Typhoon missile launcher",
+        "Armoured hull"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

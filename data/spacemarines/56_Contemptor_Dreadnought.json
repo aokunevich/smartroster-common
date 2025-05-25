@@ -1,0 +1,85 @@
+{
+  "id" : "2f889074-7935-4076-9ab5-3c2ab17c15a2",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 0
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Contemptor Dreadnought",
+  "m": "6\"",
+  "t": "9",
+  "sv": "2+",
+  "w": "10",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Contemptor Dreadnought",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Kheres-pattern assault cannon",
+      "range": "24\"",
+      "a": "6",
+      "bs": "3+",
+      "s": "7",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    }
+  ],
+  "meleeWeapons": [
+     {
+      "name": "Dreadnought combat weapon",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "12",
+      "ap": "-2",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Contemptor Dreadnought",
+      "wargear": [
+        "Combi-bolter",
+        "Multi-melta",
+        "Dreadnnoght combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

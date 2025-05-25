@@ -1,0 +1,280 @@
+**RULES M2.025-P01C01**
+
+**1) Clarifications/Nomenclature**
+> **Army:** The thing called “Order of Battle” as per Crusade, and “Roster” as per Administratum, shall be instead called as Army. This naming (in Architect’s opinion at least) is a better statement of what we are talking about instead of Faction, which is again another completely different category on Administratum and in the average mind as well. For example Chaos Knights is a Faction, but 2 separate rosters of it are not Factions themselves but Armies.
+> **General:** A character impersonated by a Player. Generals are the head of Armies, they communicate in-character with the other Armies’ Generals.
+> **Solo General:** A General who is not part of any Grand Alliance.
+> **Grand Alliance:** A group of Generals who form some form of agreement on supporting, or at least not attacking each other.
+> **Sector:** Planets are divided into different areas or territories, each with their unique facilities, flora, and fauna. These areas are called Sectors. Each Sector has 4 levels of control, representing an Army’s influence over said Sector, and the efficiency by which it can utilize its resources:
+> - Level 0: The Army is not present in the territory, thus cannot defend it, nor utilize any of its benefits
+> - Level 1: An Army that has this level of control has already some minimal presence in the territory, and said Army can mobilize to defend it from an invading force, or fight with another Army that has level 1-2 control in the same Sector
+> - Level 2: An Army with this level of control can already utilize the Sector’s resources, benefiting from its Superficial Benefits
+> - Level 3: An Army with level 3 control over a Sector can use its Total Benefits
+> **Mobilization:** An Army moving on the map of a planet or between planets. Mobilization can be of either Reconnaissance, Attacking, or Defending nature, both having different requirements as per the Mobilization rules of this Crusade.
+
+**2)  Army Composition**
+> **2.1) Supply Limit**
+> The Supply Limit shall advance as per the following for each Army:
+> - The Starting Supply Limit for each Army is 1000 points.
+> - The Supply Limit shall/can increase as per the following methods:
+> - - After each Phase (5 Cycles) each Army gains 500 points to their Supply Limit
+> - - “Increase Supply Limit” Requisition can be used, but it increases the limit only by 100 points for 1 RP
+> - An Army joining the Crusade later shall have its Starting Supply Limit as the following: 1000+(Current Phase Number-1)*500 points. So joining in Phase 1 is 1000p, Phase 2 is 1500p, Phase 3 is 2000p, etc.
+
+
+
+> **2.2) Limitations**
+> - Global:
+> - - For each 1000 points in an Army or Deployed Army in a Battle there can be only 1 of the following categories each:
+> - - - A unit with the Legends Keyword
+> - - - A unit with the Epic Hero Keyword
+> - - - A unit with the Titanic Keyword (+1 for Imperial/Chaos Knights)
+> - - - Note: A unit which has multiple of these keywords only counts as 1 of the above categories. That category has to be stated clearly.
+> - Introduction of Epic Heroes:
+> - - Epic Heroes only allowed in the Crusade if the General intending to utilize it provides a compelling narrative, detailing why that specific character of the 40K universe if there in the Vigilantia System
+> - - - Any Epic Hero has to be renamed to fit the Army’s own narrative
+> - - - In the case of Primarch-level characters (Angron, Magnus, Mortarion, Guilliman, Lion El’jonson, The Silent King, anything above 300p) either Architect or a server-poll shall make the decision
+> - Faction-specific:
+> - - Chaos and Imperial Knights
+> - - - These factions have to take a minimum of 25% allies to each battle
+
+**3) Vigilantia System Administration**
+> **3.1) Phases**
+> - Each Phase is made up of 5 consecutive Cycles
+> - The purpose of the Phase is to mark a milestone in the Crusade both narratively and rules-wise, meaning:
+> - - Significant rules shall not be modified while a Phase is ongoing, to allow too rapid rules changes, resulting in inconsistent experiences/results for players.
+> - - For each Phase a narrative goal for each Solo General and Grand Alliance shall be determined. This can be suggested by the SG or GA, or can be assigned by the Rules Team.
+> - - - In Phase 1 the narrative goal for each Army is to gain a solid foothold in the Vigilantia System.
+> **3.2) Cycles**
+> Each Cycle lasts 3 weeks in total, and is divided into 3 Stages
+> - The Planning Stage:
+> - - Week 1 Monday 00:00 (GMT+1) - Wednesday 20:00 (GMT+1)
+> - - (State of Planetary Maps and System Map announced)
+> - - Solo Generals and Grand Alliances strategize their actions and plan their moves
+> - - Each Faction individually submits their 2 Reconnaissance Mobilizations in their private noosphere threads for Architect to administer
+> - The Conquering Stage:
+> - - Week 1 Wednesday 20:00 (GMT+1) - Week 3 Wed. 20:00 (GMT+1)
+> - - Reconnaissance Mobilizations of factions announced on the Planetary Maps
+> - - Based on the Mobilization limits, Generals choose which Reconnaissance Mobilizations they want to turn into Attacking Mobilizations, and where they want to utilize Defending Mobilizations. There can be a total of 2 Attacking or Defending Mobilizations chosen.
+> - The Administrative Stage:
+> - - Week 3 Wednesday 20:00 (GMT+1) - Sunday 24:00 (GMT+1)
+> - - End of submission for battles
+> - - Architect summarizes the results
+> - - State of Planetary Maps and System Map announced
+
+**4) Sectors**
+> **4.1) Sectors in general**
+> - Each Planet shall have a specific number of Sectors
+> - These Sectors shall grant special benefits called Sector-Effects to the Armies that control them to some level
+> - - Sector-Effects shall be detailed for each Planet’s unique Sectors
+> - Each Sector has 4 Levels of control, with 0 being having zero influence over the Sector
+> - - Controlling 1 Level of a Sector grants no benefits from the Sector to the Army
+> - - Controlling 2 Levels of a Sector grants Superficial Benefits to the Army
+> - - Controlling all 3 Levels of a Sector grants Total Benefits to the Army
+> - Level of control over a Sector is determined at the end of the Cycle, once all Battles of the Cycle have been fought
+> - Only a unit that was part of the Army at the start of the Cycle can be nominated for a Sector-Effect
+> - A unit can be nominated only once per Cycle for a Sector-Effect
+> - Should control over a Sector be lost, the gained bonuses on units are not lost
+> - A limited-usability Sector-Effect does not have to be used when the control level would yield Superficial Benefit, its use can be postponed until the Total Benefit is available to be used
+
+> **4.2) Common Sectors (part 1)**
+> - Training Grounds
+> - - When: At the end of a Cycle
+> - - Target: A unit from the Army controlling it
+> - - Sector-Effect:
+> - - - Superficial Benefit: The unit gains 1 XP
+> - - - Total Benefit: The unit gains 3 XP
+> - Forge
+> - - When: At the end of a Cycle
+> - - Target: A VEHICLE or MONSTER unit from the Army controlling it
+> - - Additional Limitations: A unit can only be affected by a Forge once per Crusade
+> - - Sector-Effect:
+> - - - Superficial Benefit: The unit gains 1 additional Wound
+> - - - Total Benefit: The unit gains 3 additional Wounds
+> - Armoury
+> - - When: At the end of a Cycle
+> - - Target: A unit from the Order of Battle of the Grand Alliance or Solo General controlling it
+> - - Sector-Effect: The Grand Alliance or Solo General controlling this facility can use the "Rearm and Resupply" Requisition for 0 RP…
+> - - - Superficial Benefit: …up to 1 times
+> - - - Total Benefit: …up to 3 times
+> - Archeotech Beacon
+> - - When: At the end of a Cycle
+> - - Target: A unit from the Army controlling it
+> - - Additional Limitations: A weapon profile of a unit can only be affected by an Archeotech Beacon once per Crusade.
+> - - Sector-Effect: Improve the AP characteristic by 1…
+> - - - Superficial Benefit: …for 1 weapon entry of 1 model in the unit
+> - - - Total Benefit: …for 1 weapon entry of 3 models in the unit
+
+> **4.3) Planet-Specific Sectors**
+> **4.3.1) Shrines of the Dark Gods (part 1)**
+> - Shrine of Bloodshed
+> - - When: At the start of a Cycle
+> - - Target: All units from the Army controlling it
+> - - Additional Limitations: An Army can be affected by the Shrine of Bloodshed once per Crusade
+> - - Additional Requirement: 8888 points worth of units have to be destroyed on the planet for this Shrine to be activated.
+> - - Sector-Effect:
+> - - - Total Benefit: Units in the Army gain +1 to their melee weapons’ Strength characteristics
+> - - - Curse: At the end of the Cycle roll a D6. On a 6 a random non-Character unit of the Army is destroyed. Should it be an eligible faction, that unit is replaced by a unit of Chaos Spawn instead.
+> - Shrine of Knowledge
+> - - When: At the start of a Cycle
+> - - Target: All units from the Army controlling it
+> - - Additional Limitations: An Army can be affected by the Shrine of Knowledge once per Crusade
+> - - Additional Requirement: Total Control of the Sector has to be held for 9 Cycles. At the end of the 9th Cycle a Psycher Character in the Army has to be sacrificed.
+> - - Sector-Effect:
+> - - - Total Benefit: Units in the Army gain +1 to their ranged weapons’ Strength characteristics
+> - - - Curse: At the end of the Cycle roll a D6. On a 6 a random non-Character unit of the Army is destroyed. Should it be an eligible faction, that unit is replaced by a unit of Chaos Spawn instead.
+
+
+> **4.3.1) Shrines of the Dark Gods (part 2)**
+> - Shrine of Excess
+> - - When: At the start of a Cycle
+> - - Target: All units from the Army controlling it
+> - - Additional Limitations: An Army can be affected by the Shrine of Exuberance once per Crusade
+> - - Additional Requirement: 500 points worth of Battle-Hardened units have to be sacrificed in order to activate the Shrine
+> - - Sector-Effect:
+> - - - Total Benefit: Units in the Army gain +2” to their Movement characteristics
+> - - - Curse: At the end of the Cycle roll a D6. On a 6 a random non-Character unit of the Army is destroyed. Should it be an eligible faction, that unit is replaced by a unit of Chaos Spawn instead.
+> - Shrine of Leprosy
+> - - When: At the start of a Cycle
+> - - Target: All units from the Army controlling it
+> - - Additional Limitations: An Army can be affected by the Shrine of Leprosy once per Crusade
+> - - Additional Requirement: 1000 points worths of units have to lose 1 Rank and a random Battle Honour if they have at least 1.
+> - - Sector-Effect:
+> - - - Total Benefit: Units in the Army gain +1 to their Toughness characteristics
+> - - - Curse: At the end of the Cycle roll a D6. On a 6 a random non-Character unit of the Army is destroyed. Should it be an eligible faction, that unit is replaced by a unit of Chaos Spawn instead.
+
+
+
+> **4.3.2) Ruins of the Imperium (part 1)**
+> - Ordinatus Hangar
+> - - When: At the start of a Cycle
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: may call down Plasma Artillery, once per Cycle.
+> - - - - Plasma Artillery: Use this Stratagem in your Command Phase, if your WARLORD is on the battlefield. Select 3 points on the battlefield and place markers on those points. At the start of your next Command phase, move the markers by D3 inches, each in the direction of a separate Scatter Dice. Then, roll one D6 for each unit within 6" of the centre of that marker. On a 4+, that unit suffers D3 mortal wounds, plus 1 mortal wound for each 5 models in the unit. The markers are then removed.
+> - Planetary Defense Systems
+> - - When: At the start of a Cycle
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: may call down Orbital Strike, once per Cycle.
+> - - - - Orbital Strike: Use this Stratagem in your Command Phase, if your WARLORD is on the battlefield. Select one point on the battlefield and place a marker on that point. At the start of your next Command phase, move the marker by 2D6 inches in the direction of a Scatter Dice. Then, roll one D6 for each unit within 6" of the centre of that marker, adding 1 if the unit being rolled for is within 3" of the centre of the marker. On a 2-5, that unit suffers D3 mortal wounds, and on a 6+, that unit suffers D6 mortal wounds. The marker is then removed.
+
+
+
+> **4.3.2) Ruins of the Imperium (part 2)**
+> - Fort of the Guardian Angels
+> - - When: At the start of a Cycle
+> - - Target: A unit from the Army controlling it
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: may call down Strafing Run, once per Cycle.
+> - - - - Strafing Run: Use this Stratagem in your Command Phase, if your WARLORD is on the battlefield. Draw a 30" long line on the battlefield, and place markers at its end points of the line. One of them should be red, the other blue. At the start of your next Command phase, roll a D6. On a 1-3 the red marker, on a 4+ the blue marker may be moved by D3 inches. Then, roll one D6 for each unit within 3" of the line. On a 2+, that unit suffers D3 mortal wounds. The line is then removed.
+> - Titanic Requisitions
+> - - When: At the start of a Cycle
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: The Army may utilize a Titanic unit for 1 battle for half of its cost rounded up.
+> - Adeptus Astra Telepathica
+> - - When: At the start of a Cycle
+> - - Sector-Effect: The Army gains a CP-pool. At the start of a Battle a single CP can be gained from this pool, if it has still at least 1.
+> - - - Superficial Benefit: The size of the CP-pool is 1.
+> - - - Total Benefit: The size of the CP-pool is 3.
+
+
+> **4.3.2) Ruins of the Imperium (part 3)**
+> - Abandoned Fortress Monastery
+> - - When: At the start of a Cycle
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: Units in the Army controlling this Sector have a Leadership characteristic improved by 1.
+> - Adamantium Mines
+> - - When: At the start of a Cycle
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: Once per cycle, at the start of the battle you can target an unit squad, to be equipped with experimental Adamantium plated armour.  During that battle, all models in that unit gain a 6+ Feel No Pain.  If any models in the unit already have a Feel No Pain ability, improve it by 1.
+> - Sanguae Metallum
+> - - When: At the start of a Cycle
+> - - Sector-Effect:
+> - - - Superficial Benefit: none
+> - - - Total Benefit: Once per cycle, at the start of a battle, you can decide to deploy an experimental bomb found in the depths of a forge laboratory on the moon. It is filled with biofuel, harvested from Pyrovores that were captured during a conflict many Cycles ago. At the start of the battle, you can set up one Bomb token anywhere on the battlefield that is not in your opponent’s deployment zone. During any command phase, you can choose to detonate the bomb. Any units within 9” of the token must take a battleshock test. Any which fail the test, fail to find cover and take D3 mortal wounds.
+
+
+**5) Planets**
+> **5.1) Asteroid Belt**
+> *Millions asteroids form the Asteroid Belt of the Vigilantia System. Some are barely the size of a Rhino APC, while some dwarf even the mightiest Battle Barges of the Imperium. In the Asteroid Belt are many smaller stations which help facilitate transition between the System's planets and the nearest Mandeville point. A presence in the Asteroid Belt is crucial for any Army that would like to receive reinforcements. It is also the staging area for new armies looking to invade the System.*
+> - The battlefield for Random Battles and Armies joining the crusade.
+> - There are no specific Sectors in the Asteroid Belt of Vigilantia.
+> - Armies stationed here and only here may Mobilize to 1 Planet of their choice for free.
+>
+> **5.2) Vigilantia II: Armygeddon**
+> *TBW*
+> - Sectors
+> - - Shrine of Bloodshed
+> - - Fort of the Guardian Angels
+> - - Ordinatus Hangar
+> - - Armoury
+> - - Explosive Charges
+> - - Forge
+> - - Training Grounds
+>
+> **5.3) Vigilantia III: Lux Tempestus**
+> *TBW*
+> - Sectors
+> - - Shrine of Excess
+> - - Adeptus Astra Telepathica
+> - - Planetary Defense Systems
+> - - Archeotech Beacon
+> - - Armoury
+> - - Relic Materials
+> - - Training Grounds
+>
+> **5.4) Vigilantia IV: Forge World Castellum**
+> *TBW*
+> - Sectors
+> - - Shrine of Knowledge
+> - - Titanic Requisitions
+> - - Planetary Defense Systems
+> - - Archeotech Beacon
+> - - Armoury
+> - - Forge
+> - - Training Grounds
+> - - Sanguae Metallum
+>
+> **5.5) Vigilantia V: Quintus Primera**
+> *Coming soon...*
+>
+> **5.6) Vigilantia VI: Glacialum Mortis**
+> *TBW*
+> - Sectors
+> - - Shrine of Leprosy
+> - - Abandoned Fortress Monastery
+> - - Adamantium Mines
+> - - Archeotech Beacon
+> - - Armoury
+> - - Relic Materials
+> - - Training Grounds
+>
+> **5.7) Space Hulk “The Butcher of Fates”**
+> *Coming soon...*
+
+
+**6) Mobilization**
+> **6.1) Normal Mobilization of Armies:**
+> - Armies can issue 2 Reconnaissance Mobilization during the Planning Stage of the current Cycle
+> - Reconnaissance Mobilizations are submitted in each General’s private thread under the noosphere channel, this way keeping their intended movements secret from their enemies
+> - After Reconnaissance Mobilization are revealed on the Planetery Maps at the end of the Conquering Stage, Generals choose which Reconnaissance Mobilizations they want to turn into Attacking Mobilizations, and where they want to utilize Defending Mobilizations. There can be a total of 2 Attacking or Defending Mobilizations chosen.
+> - Attacking:
+> - - Generals may attack Sectors on Planet they or their GA controls at least 1 Sector completely (level 3/3)
+> - Defending:
+> - - Generals may defend a Sectors they or their GA control at least on level 1/3
+> **6.2) Mobilizations on and between Planets:**
+> - Armies can only freely Mobilize on and between Planets on which they or their Grand Alliance controls at least 1 Sector to at least level 3.
+> - Otherwise, if a Solo General or a Grand Alliance does not control any Sectors to any level on a Planet to which they would like to Mobilize:
+> - - Planetery Expansion 2RP:
+> - - - An Army may Mobilize to an uncontrolled Sector on a Planet
+> - - Invasion 5RP:
+> - - - An Army may mobilize to any planet’s any Sector. The Army having control over the target Sector may choose to defend it without paying the Mobilization cost.
+
+
+
+

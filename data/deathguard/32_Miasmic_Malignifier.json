@@ -1,0 +1,54 @@
+{
+  "version": "10",
+  "id": "b224a44a-e9f6-4659-b57f-8d17f7c7bdb6",
+  "faction": "DeathGuard",
+  "name": "Miasmic Malignifier",
+  "keywords": [
+  ],
+  "prices": [
+    {
+      "count": 1,
+      "price": 115
+    }
+  ],
+  "m": "-",
+  "t": "10",
+  "sv": "3+",
+  "w": "12",
+  "ld": "6+",
+  "oc": "0",
+  "composition": [
+    {
+      "name": "Miasmic Malignifier",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Noxious stink",
+      "range": "6\"",
+      "a": "2D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Miasmic Malignifier",
+      "wargear": [
+        "Noxious stink"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [],
+    "pair": []
+  }
+}

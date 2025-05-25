@@ -1,0 +1,92 @@
+{
+  "id" : "3c8a3795-48c5-406e-977b-d605199c3e62",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 95
+    },
+    {
+      "count": 6,
+      "price": 190
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Eradicator Squad",
+  "m": "5\"",
+  "t": "6",
+  "sv": "3+",
+  "w": "3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Eradicator Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Eradicators",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Melta rifle",
+      "range": "18\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Eradicator Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Melta rifle",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Eradicators",
+      "wargear": [
+        "Bolt pistol",
+        "Melta rifle",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

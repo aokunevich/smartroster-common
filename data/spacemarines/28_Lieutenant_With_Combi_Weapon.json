@@ -1,0 +1,66 @@
+{
+  "id" : "f2dd4624-96e7-46de-9255-334c76eebfde",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 70
+    }
+  ],
+  "faction" : "SpaceMarines",
+  "name": "Lieutenant with combi-weapon",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Lieutenant with combi-weapon",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Paired combat blades",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Lieutenant with combi-weapon",
+      "wargear": [
+        "Combi-weapon",
+        "Paired combat blades"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

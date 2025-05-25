@@ -1,0 +1,190 @@
+{
+  "id" : "3c65240d-746b-4caa-a29c-96139b85ba96",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 95
+    },
+    {
+      "count": 10,
+      "price": 190
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Assault Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Assault Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Assault Marines",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Meltagun",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    },
+    {
+      "name": "Plasma gun",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "24\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "24\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes chainsword",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Twin lighining claws",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Assault Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Astartes chainsword"
+      ]
+    },
+    {
+      "modelName": "Assault Marines",
+      "wargear": [
+        "Bolt pistol",
+        "Astartes chainsword"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id" : "0da59b84-f45b-44e9-ad3c-dcdd6e3f2199",
+  "keywords" : ["Character","Epic Hero"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 85
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Captain Sicarius",
+  "m": "6\"",
+  "t": "4",
+  "sv": "2+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Captain Sicarius",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Artisan plasma pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "8",
+      "ap": "-3",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Talassarian Tempest Blade",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Captain Sicarius",
+      "wargear": [
+        "Artisan plasma pistol",
+        "Talassarian Tempest Blade"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Squad",
+      "Command Squad",
+      "Sternguard Veteran Squad",
+      "Tactical Squad",
+      "Vanguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

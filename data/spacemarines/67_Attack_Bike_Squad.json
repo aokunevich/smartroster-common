@@ -1,0 +1,102 @@
+{
+  "id" : "78e6db21-fadb-498a-8ca2-3f5c1715fce8",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 1,
+      "price": 55
+    },
+    {
+      "count": 2,
+      "price": 110
+    },
+    {
+      "count": 3,
+      "price": 165
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Attack Bike Squad",
+  "m": "12\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Attack Bikes",
+      "countMin": 1,
+      "countMax": 3
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Twin boltgun",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Attack Bikes",
+      "wargear": [
+        "Bolt pistol",
+        "Heavy bolter",
+        "Twin boltgun",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

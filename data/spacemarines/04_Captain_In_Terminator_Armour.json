@@ -1,0 +1,174 @@
+{
+  "id" : "aa41e2f0-9717-4606-833b-199683bfd7d9",
+  "keywords" : ["Character"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 95
+    }
+  ],
+  "version": "10",
+  "faction" : "SpaceMarines",
+  "name": "Captain In Terminator Armor",
+  "m": "5\"",
+  "t": "5",
+  "sv": "2+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Captain In Terminator Armor",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Chainfist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Relic weapon",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Thunder hammer",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Twin lightning claws",
+      "range": "Melee",
+      "a": "7",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "name": "Storm bolder",
+      "options": [
+        {
+          "name": "Combi-weapon",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1,
+          "rule": "CanEquipAuxiliaryGrenadeLauncher"
+        },
+        {
+          "name": "Relic shield",
+          "count": 1,
+          "rule": "OnePerModel"
+        },
+        {
+          "name": "Relic weapon",
+          "count": 1
+        },
+        {
+          "name": "Thunder hammer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Relic weapon",
+      "options": [
+        {
+          "name": "Chainfist",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1,
+          "rule": "CanEquipAuxiliaryGrenadeLauncher"
+        },
+        {
+          "name": "Relic shield",
+          "count": 1,
+          "rule": "OnePerModel"
+        },
+        {
+          "name": "Thunder hammer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Storm bolter",
+        "Relic weapon"
+      ],
+      "options": [{
+        "name": "Twin lightning claws",
+        "count": 1
+      }]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Captain In Terminator Armor",
+      "wargear": [
+        "Storm bolter",
+        "Relic weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Relic Terminator Squad",
+      "Terminator Assault Squad",
+      "Terminator Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

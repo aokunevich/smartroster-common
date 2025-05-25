@@ -1,0 +1,101 @@
+{
+  "id" : "5cf3f373-c4d8-471f-b2cb-347cf8201e71",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 3,
+      "price": 150
+    },
+    {
+      "count": 6,
+      "price": 300
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Centurion Assault Squad",
+  "m": "\"",
+  "t": "",
+  "sv": "+",
+  "w": "",
+  "ld": "+",
+  "oc": "",
+  "composition": [
+    {
+      "name": "Assault Centurion Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Assault Centurions",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Centurion bolters",
+      "range": "24\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin meltagun",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Siege drills",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "10",
+      "ap": "-2",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Assault Centurion Sergeant",
+      "wargear": [
+        "Twin flamer",
+        "Siege drills",
+        "Centurion bolters"
+      ]
+    },
+    {
+      "modelName": "Assault Centurions",
+      "wargear": [
+        "Twin flamer",
+        "Siege drills",
+        "Centurion bolters"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

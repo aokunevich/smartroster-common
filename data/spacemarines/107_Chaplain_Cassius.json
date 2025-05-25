@@ -1,0 +1,72 @@
+{
+  "id" : "d7d9aa22-5610-4295-b695-325cea5990be",
+  "keywords" : ["Character","Epic Hero"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 80
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Chaplain Cassius",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "5+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Chaplain Cassius",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Infernus",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Artificer crozius",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "6",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Chaplain Cassius",
+      "wargear": [
+        "Infernius",
+        "Artificer crozius"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Squad",
+      "Command Squad",
+      "Sternguard Veteran Squad",
+      "Tactical Squad",
+      "Tyrannic War Veterans",
+      "Vanguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

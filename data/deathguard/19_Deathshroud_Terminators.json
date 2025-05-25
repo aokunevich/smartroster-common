@@ -1,0 +1,95 @@
+{
+  "version": "10",
+  "id": "20f50ce5-08da-4a38-bf41-f4074f07f655",
+  "faction": "DeathGuard",
+  "name": "Deathshroud Terminators",
+  "keywords": [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 120
+    },
+    {
+      "count": 6,
+      "price": 240
+    }
+  ],
+  "m": "4\"",
+  "t": "6",
+  "sv": "2",
+  "w": "3",
+  "ld": "6",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Deathshroud Champion",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Deathshroud Terminators",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Plaguespurt gauntlet",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Manreaper",
+      "profiles": [
+        {
+          "name": "strike",
+          "range": "Melee",
+          "a": "4",
+          "ws": "2+",
+          "s": "8",
+          "ap": "-2",
+          "d": "2"
+        },
+        {
+          "name": "sweep",
+          "range": "Melee",
+          "a": "6",
+          "ws": "2+",
+          "s": "5",
+          "ap": "0",
+          "d": "1"
+        }
+      ]
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Deathshroud Champion",
+      "wargear": [
+        "Plaguespurt gauntlen",
+        "Manreaper"
+      ]
+    },
+    {
+      "modelName": "Deathshroud Terminators",
+      "wargear": [
+        "Plaguespurt gauntlen",
+        "Manreaper"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

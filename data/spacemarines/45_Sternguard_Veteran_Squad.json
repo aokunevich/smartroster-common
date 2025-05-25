@@ -1,0 +1,110 @@
+{
+  "id" : "7d4f0625-37d9-4a8c-b042-f0c15cbee9aa",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 90
+    },
+    {
+      "count": 10,
+      "price": 180
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Sternguard Veteran Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Sternguard Veteran Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Sternguard Veterans",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Sternguard bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Sternguard bolt rifle",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Sternguard heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "4+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Sternguard Veteran Sergent",
+      "wargear": [
+        "Sternguard bolt pistol",
+        "Sternguard bolt rifle",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Sternguard Veterans",
+      "wargear": [
+        "Sternguard bolt pistol",
+        "Sternguard bolt rifle",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

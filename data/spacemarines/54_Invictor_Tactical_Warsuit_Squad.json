@@ -1,0 +1,104 @@
+{
+  "id" : "b9699405-6120-4ac8-90ca-75c24b2c4a75",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 140
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Invictor Tactical Warsuit",
+  "m": "8\"",
+  "t": "8",
+  "sv": "3+",
+  "w": "12",
+  "ld": "6+",
+  "oc": "4",
+  "composition": [
+    {
+      "name": "Invictor Tactical Warsuit",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "range": "18\"",
+      "a": "D6",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "4+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Incendium cannon",
+      "range": "12\"",
+      "a": "D6+3",
+      "bs": "N/A",
+      "s": "6",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Twin ironhail autocannon",
+      "range": "48\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Twin ironhail stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Invictor fist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "14",
+      "ap": "-2",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Invictor Tactical Warsuit",
+      "wargear": [
+        "Fragstorm grenade launcher",
+        "Heavy bolter",
+        "Incendium cannon",
+        "Twin ironhail heavy stubber",
+        "Invictor fist"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

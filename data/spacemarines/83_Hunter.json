@@ -1,0 +1,84 @@
+{
+  "id" : "a948f404-e9bf-427d-8da5-0dc387d36f8d",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 100
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Hunter",
+  "m": "9\"",
+  "t": "11",
+  "sv": "3+",
+  "w": "11",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Hunter",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Skyspear missile launcher",
+      "range": "36\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "10",
+      "ap": "-3",
+      "d": "D6+2"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Hunter",
+      "wargear": [
+        "Skyspear missile launcher",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

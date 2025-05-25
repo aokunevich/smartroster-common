@@ -1,0 +1,105 @@
+{
+  "id" : "2f45eef7-3f85-4710-8b9a-2863dde3dc02",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 4,
+      "price": 55
+    }
+  ],
+  "version": "10",
+  "faction" : "SpaceMarines",
+  "name": "Astartes Servitors",
+  "m": "6\"",
+  "t": "4",
+  "sv": "4+",
+  "w": "1",
+  "ld": "8+",
+  "oc": "0",
+  "composition": [
+    {
+      "name": "Astartes Servitors",
+      "countMin": 4,
+      "countMax": 4
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "4+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "4+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Plasma cannon",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "36\"",
+          "a": "D3",
+          "bs": "4+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "36\"",
+          "a": "D3",
+          "bs": "4+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "1",
+      "ws": "5+",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Servitor servo-arm",
+      "range": "Melee",
+      "a": "1",
+      "ws": "5+",
+      "s": "6",
+      "ap": "-2",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Astartes Servitors",
+      "wargear": [
+        "Servitor servo-arm"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

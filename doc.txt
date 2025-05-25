@@ -1,0 +1,286 @@
+ERRORS
+FIGMA
+
+
+
+Terminology:
+
+Model
+One single model.
+Example: https://www.warhammer.com/app/resources/catalog/product/920x950/99070101080_SMLtStormShield1.jpg
+
+Unit
+One or multiple models.
+Example: https://www.warhammer.com/app/resources/catalog/product/920x950/99120101401_SMChapterHeroes2.jpg
+Each unit has a "price" in points.
+
+Roster
+List of units selected for the game.
+Summary of each unit points.
+
+Game
+Battle between 2 (usually) players.
+
+Tournament
+Multiple games where players are receiving points for each game.
+
+Wargear
+Models can have multiple weapons for the battle.  Example: pistol, rifle, grenades, etc
+Available weapons should be selected before battle.
+
+Warlord
+Some models can be selected as “warlord” for the game.
+
+Crusade
+Crusade this is narrative game when units participating games and achieving experience
+
+Force
+
+
+
+Card
+
+
+
+
+
+1. Mission
+To create an intuitive and convenient tool for Warhammer 40k players and tournament organizers that allows easy management of games, tracking of matches, and organizing tournaments, ensuring the most enjoyable gaming experience.
+
+2. Vision
+To become the go-to resource for Warhammer 40k players, uniting the community and offering features that contribute to the growth and popularization of the game.
+
+3. Values
+- Community: Support and develop the Warhammer 40k community through convenient and efficient tools.
+- Accessibility: The project should be accessible and useful for both beginners and experienced players.
+- Innovation: Continuously develop and improve functionality based on user feedback.
+- Simplicity and Convenience: A highly intuitive interface that makes it easy to accomplish all necessary tasks.
+
+
+Landing
+
+
+Home
+Home page contains blocks with news. Each block is an image with title, short description and date/time when it was added.
+
+
+Games
+
+Game
+Game contains information about past/scheduled games between 2 (or more) players at specific date.
+Game has name, date, “game master” who can edit game (besides game creator), universe (game system), list of settings.
+List of players.
+Each player can optionally select faction to play with, roster and enter game results.
+If roster was selected, after clicking on button/link/etc? player send validation request to the system, success/fail indicator will show the result.
+If roster was selected, it can be "lock" for any changes with corresponding indicator when it is locked/unlocked
+Winner will be selected based on score achieved during the game (or manually by “winner” checkbox).
+Game notes field for any notes.
+Game results can be 2 types: ????????
+1. List of units from the roster. For each user player can select if this unit survived, enter number of destroyed units, and select unit with 'mark of greatness'
+2. List of missions from the roster. For each mission player can enter number of point achieved.
+
+
+faction
+score
+winner
+
+
+
+Game list
+List contains game name, game date and optional (grey?, lower font?, under name?) details like owner, game master, status of roster validations, tournament name. Sorted by date desc.
+Passed games marked (with grey color?) with winner name if available.
+Can be filtered by the following filters:
+Games created by current user
+Games where current user is game master
+Games where current user is participating
+All games
+Search input? should be available to search with advanced options.
+
+
+
+Rosters
+
+Roster Manage
+Roster Manage contains list of units divided by categories and price summary of all selected units. Number of categories are not defined and can various.
+Player needs to select units which will participate game.
+Each unit may have 1 or more models. Unit with more than 1 model typically has 2 types of models. Player can select number of models for each type SAMPLE.
+Description of unit includes name. SAMPLE_LONG_NAME
+Each unit has unique characteristics which should be available for quick review (hover/icon "i"/etc)  SAMPLE
+Each unit may have 1 or more weapons. Some weapons have multiple profiles. Player can select number of weapons for each type. SAMPLE_MULTI_PROFILE
+Description of weapon includes name.
+Each weapon has unique characteristics which should be available for quick review (hover/icon "i"/etc)  SAMPLE
+Each unit has price depends on number of units. System provided price based on selected units should be available. Price variants should be available for quick review (hover/icon "i"/etc)  SAMPLE.
+Any unit can be cloned (the same unit will be added), cloned unit can be deleted.
+Any unit can be marked as "warlord"
+Should be a way to turn on/off "details" mode when unit characteristics, weapon characteristics and price variants will be visible for all units.
+
+
+total number on units !!!!!
+
+
+Roster View is similar to Roster Manage page but kind of "review" page.
+Included only summary, selected units, selected weapons, mark "warlord" for selected unit. no changes are allowed, all fields are labels not disabled inputs.
+Should be a way to turn on/off "details" mode when unit characteristics, weapon characteristics and price variants will be visible for all units.
+List of games (names, links) where it was used.
+
+
+Rosters List
+List contains roster name, created date, summary. Sorted by date desc.
+Search input? should be available to search with advanced options.
+
+
+
+
+
+
+Crusade
+
+Force
+
+Force Manage
+Force Manage contains the following
+- name (input)
+- supply limit (input numbers)
+- supply used (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- battle tally (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- victories (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- requisition points (input numbers)
+Cards list
+Crusade Rosters list
+
+
+Force View
+Force View contains the following
+- name (label)
+- supply limit (label)
+- supply used (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- battle tally (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- victories (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- requisition points (label)
+Cards list
+Crusade Rosters list
+
+
+
+Cards list
+Cards list contains card name, with details (grey?, lower font?, under name?) like faction, unit, rank. Sorted by name.
+Cards can be edited or deleted (from Force Manage page)
+
+Card Manage (v1)
+Card Manage contains the following
+- name (input)
+- faction (input)
+- unit (input)
+- num of models (input numbers)
+- keywords (text area)
+- equipments (text area)
+- enhancements (text area)
+- points (input numbers)
+- crusade points (input numbers)
+- experience points (input numbers)
+- rank (input)
+- battles played (input numbers)
+- battles survived (input numbers)
+- enemy units destroyed (input numbers)
+- battle traits (multiple can be added/removed)
+- weapon modifications (multiple can be added/removed)
+- relics (multiple can be added/removed)
+- battle scars (multiple can be added/removed)
+- notes (text area)
+
+
+Card Manage (v2)
+Card Manage contains the following
+- name (input)
+- faction (predefined list)
+- unit (predefined list)
+- num of models (input numbers)
+- keywords (text area, comma separated list, predefined from unit)
+- equipments (predefined list of weapons, player can select weapon and define number of weapons, some weapons may have multiple profiles SAMPLE )
+- enhancements (text area)
+- points (input numbers)
+- crusade points (input numbers)
+- experience points (details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- rank (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- battles played (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- battles survived (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- enemy units destroyed (label, details should be available for quick review (hover/icon "i"/etc)  SAMPLE )
+- battle traits (predefined list, multiple can be added/removed)
+- weapon modifications (predefined list, multiple can be added/removed)
+- relics (predefined list, multiple can be added/removed)
+- battle scars (predefined list, multiple can be added/removed)
+- notes (text area)
+
+
+Card View
+Card View is similar to Card Manage page but kind of "review" page.
+Included only selected values, no changes are allowed, all fields are labels not disabled inputs
+
+
+
+Crusade Rosters list
+List contains roster name, roster date. Sorted by date desc.
+Crusade Rosters can be edited or deleted (from Force Manage page)
+
+
+Crusade Roster Manage
+Roster Manage contains list of units divided by categories and price summary of all selected units. Number of categories are not defined and can various.
+Player needs to select units which will participate game.
+Description of unit includes name. SAMPLE_LONG_NAME
+Each unit has unique characteristics which should be available for quick review (hover/icon "i"/etc)  SAMPLE
+Each unit may have 1 or more weapons. Some weapons have multiple profiles. SAMPLE_MULTI_PROFILE
+Description of weapon includes name.
+Each weapon has unique characteristics which should be available for quick review (hover/icon "i"/etc)  SAMPLE
+Each unit has price.
+Any unit can be marked as "warlord"
+Should be a way to turn on/off "details" mode when unit characteristics, weapon characteristics will be visible for all units.
+
+
+
+
+
+Crusade Roster View
+Included only summary, selected units, weapons, mark "warlord" for selected unit. no changes are allowed, all fields are labels not disabled inputs.
+Should be a way to turn on/off "details" mode when unit characteristics, weapon characteristics will be visible for all units.
+List of games (names, links) where it was used.
+
+
+
+
+
+
+
+
+
+
+
+Tournaments
+
+
+Tournament
+Tournament contains multiple games and winner based on score calculated for game participating.
+
+Tournament has “tournament master” who can edit tournament (besides tournament creator).
+Created tournament has registration start/end date when registration allowed. During  that period tournament master or owner can add/remove participants.
+For registration user optionally can select faction to play with. If player already registered for the current tournament then it should be notified, duplication not allowed.
+
+After tournament starts, registration start/end dates are hidden behind a drop-down menu that you can access by clicking on it
+Based on tournament status different details available for review.
+Created: name, registration start/end dates, start/end dates, tournament master, list of pre-registered users with factions.
+Registration open (user not registered): name, registration start/end dates, start/end dates, tournament master, list of registered users with factions, form for registration: faction select and button for submit.
+Registration open (user registered): name, registration start/end dates, start/end dates, tournament master, list of registered users with factions, notification about current user registration with button for cancel registration.
+Started: name, start/end date, tournament master. List of players with factions, current score, number of wins, draws, losses. Sorted by score desc. List of games with name, winner, date. Sorted by date desc.
+Ended: name, start/end date, tournament master. List of players with factions, current score, number of wins, draws, losses. Sorted by score desc. List of games with name, winner, date. Sorted by date desc.
+
+
+Tournament list
+List contains tournament name and status. Sorted by date desc.
+Can be filtered by the following filters:
+Tournament created by current user
+Tournament where current user is tournament master
+Tournament where current user is participating
+All tournaments
+
+Tournament live board
+Board for tracking any changes in realtime. Any changes in games will be updated immediately on that page.
+List of players with factions, current score, number of wins, draws, losses. Sorted by score desc. List of games with name, winner, date. Sorted by date desc.

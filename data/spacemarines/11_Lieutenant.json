@@ -1,0 +1,267 @@
+{
+  "id" : "f0921d9d-1247-40ee-b39c-8613d13db91c",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 65
+    }
+  ],
+  "faction" : "SpaceMarines",
+  "name": "Lieutenant",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Lieutenant",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Grav pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Hand flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "range": "6\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "2"
+    },
+    {
+      "name": "Master-crafted boltgun",
+      "range": "24\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "2"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "2+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "2+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes chainsword",
+      "range": "Melee",
+      "a": "7",
+      "ws": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power weapon",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    },
+    {
+      "name": "Thunder hummer",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Twin lightning claws",
+      "range": "Melee",
+      "a": "7",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "name": "Master-crafted boltgun",
+      "options": [
+        {
+          "name": "Combi-weapon",
+          "count": 1
+        },
+        {
+          "name": "Hand flamer",
+          "count": 1
+        },
+        {
+          "name": "Inferno pistol",
+          "count": 1
+        },
+        {
+          "name": "Plasma pistol",
+          "count": 1
+        },
+        {
+          "name": "Storm bolter",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1
+        },
+        {
+          "name": "Storm shield",
+          "count": 1,
+          "rule": "OnePerModel"
+        },
+        {
+          "name": "Power weapon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Astartes chansword",
+      "options": [
+        {
+          "name": "Power fist",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Astartes chansword"
+      ],
+      "options": [
+        {
+        "name": "Close combat weapon",
+        "count": 1
+      },
+        {
+        "name": "Storm shield",
+        "count": 1,
+        "rule": "OnePerModel"
+      }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Master-crafted boltgun",
+        "Astartes chansword"
+      ],
+      "options": [
+        {
+        "name": "Twin lightning claws",
+        "count": 1
+      }
+      ]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Lieutenant",
+      "wargear": [
+        "Bolt pistol",
+        "Master-crafted boltgun",
+        "Astartes chaisword"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Squad",
+      "Command Squad",
+      "Tactical Squad",
+      "Vanguard Veteran Squad"
+    ],
+    "pair": [
+      "Primaris Captain",
+      "Captain in Gravis Armour",
+      "Captain in Phobos Armour",
+      "Captain In Terminator Armor",
+      "Captain",
+      "Captain with jump pack",
+      "Captain on bike"
+    ]
+  }
+}

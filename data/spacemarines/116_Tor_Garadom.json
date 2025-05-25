@@ -1,0 +1,69 @@
+{
+  "id" : "fc478277-eb6a-49b2-8190-cdee801e6662",
+  "keywords" : ["Character","Epic Hero"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 90
+    }
+  ],
+
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Tor Garadon",
+  "m": "5\"",
+  "t": "6",
+  "sv": "3+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Tor Garadon",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Artificer grav-gun",
+      "range": "18\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hand of Defiance",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "12",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Tor Garadon",
+      "wargear": [
+        "Artificier grav-gun",
+        "Hand of Defiance"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Aggressor Squad",
+      "Eradicator Squad",
+      "Heavy Intercessor Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

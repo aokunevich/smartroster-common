@@ -1,0 +1,109 @@
+{
+  "version": "10",
+  "id": "fefdfb75-a3dd-429b-94a9-90143ad6dfb5",
+  "faction": "DeathGuard",
+  "name": "Myphitic Blight-Haulers",
+  "keywords": [
+  ],
+  "prices": [
+    {
+      "count": 1,
+      "price": 100
+    },
+    {
+      "count": 2,
+      "price": 200
+    },
+    {
+      "count": 3,
+      "price": 300
+    }
+  ],
+  "m": "10\"",
+  "t": "9",
+  "sv": "3+",
+  "w": "10",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Myphitic Blight-Haulers",
+      "countMin": 1,
+      "countMax": 3
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bile spurt",
+      "range": "12\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "D6",
+          "ws": "3+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "1",
+          "ws": "3+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Gnashing maw",
+      "range": "Melee",
+      "a": "4",
+      "bs": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Myphitic Blight-Haulers",
+      "wargear": [
+        "Bile spurt",
+        "Missile launcher",
+        "Multi-melta",
+        "Gnashing maw"
+      ]
+    }
+  ],
+
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

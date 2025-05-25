@@ -1,0 +1,99 @@
+{
+  "id": "9658ffe3-d2a8-423b-8884-729dec38c1b9",
+  "keywords": [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 120
+    },
+    {
+      "count": 6,
+      "price": 240
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Aggressor Squad",
+  "m": "5\"",
+  "t": "6",
+  "sv": "3+",
+  "w": "3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Aggressor Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Aggressors",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Auto boltstorm gaunlets",
+      "range": "18\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Flamestorm gauntlets",
+      "range": "12\"",
+      "a": "D6+1",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Fragstorm grenade launcher",
+      "range": "18\"",
+      "a": "D6",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Aggressor Sergeant",
+      "wargear": [
+        "Flamestorm gauntlets",
+        "Power fist"
+      ]
+    },
+    {
+      "modelName": "Aggressors",
+      "wargear": [
+        "Flamestorm gauntlets",
+        "Power fist"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

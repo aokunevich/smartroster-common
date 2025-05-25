@@ -1,0 +1,148 @@
+{
+  "id" : "99142b1a-e098-413b-bf58-ae520541ccac",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 220
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Repulsor Executioner",
+  "m": "10\"",
+  "t": "12",
+  "sv": "3+",
+  "w": "16",
+  "ld": "6+",
+  "oc": "5",
+  "composition": [
+    {
+      "name": "Repulsor Executioner",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy laser destroyer",
+      "range": "72\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "16",
+      "ap": "-4",
+      "d": "D6+4"
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "range": "24\"",
+      "a": "12",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Icarus rocket pod",
+      "range": "24\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-1",
+      "d": "2"
+    },
+   {
+      "name": "Ironhail heavy stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Macro plasma incinerator",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "36\"",
+          "a": "D6+1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        },
+        {
+          "name": "supercharge",
+          "range": "36\"",
+          "a": "D6+1",
+          "bs": "3+",
+          "s": "9",
+          "ap": "-4",
+          "d": "3"
+        }
+      ]
+    },
+
+    {
+      "name": "Repulsor Executioner defensive array",
+      "range": "24\"",
+      "a": "10",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Twin icarus ironhail heavy stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored hull",
+      "range": "Melee",
+      "a": "6",
+      "ws": "4+",
+      "s": "8",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Repulsor Executioner",
+      "wargear": [
+        "Heavy onslaught gatling cannon",
+        "Macro plasma incinerator",
+        "Repulsor Executioner defensive array",
+        "Twin heavy bolter",
+        "Twin icarus ironhail stubber",
+        "Armored hull"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id" : "e8de85b3-4dc2-48e5-9636-63df945e840c",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 200
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Desolation Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Desolation Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Desolation Marines",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Castellan launcher",
+      "range": "36\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Superfrag rocket launcher",
+      "range": "48\"",
+      "a": "D6+1",
+      "bs": "4+",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Superkrak rocket launcher",
+      "range": "48\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "10",
+      "ap": "-2",
+      "d": "D6+1"
+    },
+    {
+      "name": "Vengor launcher",
+      "range": "48\"",
+      "a": "D6",
+      "bs": "2+",
+      "s": "7",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Desolation Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Castellan launcher",
+        "Superfrag rocket launcher",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Desolation Marines",
+      "wargear": [
+        "Bolt pistol",
+        "Castellan launcher",
+        "Superfrag rocket launcher",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

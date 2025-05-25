@@ -1,0 +1,69 @@
+{
+  "id" : "4ae19e1f-9551-46af-a23c-43bb741fb675",
+  "keywords" : ["Character","Epic Hero"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 90
+    }
+  ],
+
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Pedro Kantor",
+  "m": "6\"",
+  "t": "4",
+  "sv": "2+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Pedro Kantor",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Dom's Arrow",
+      "range": "24\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Fist of Retribution",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-3",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Pedro Kantor",
+      "wargear": [
+        "Dom's Arrow",
+        "Fist of Retribution"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Command Squad",
+      "Sternguard Veteran Squad",
+      "Tactical Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

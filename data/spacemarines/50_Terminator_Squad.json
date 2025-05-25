@@ -1,0 +1,140 @@
+{
+  "id" : "24fd47a9-e49f-441e-9932-ef2947e198f7",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 175
+    },
+    {
+      "count": 10,
+      "price": 350
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Terminator Squad",
+  "m": "5\"",
+  "t": "5",
+  "sv": "2+",
+  "w": "3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Terminator Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Terminators",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Cyclone missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "36\"",
+          "a": "2D6",
+          "bs": "3+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "36\"",
+          "a": "2",
+          "bs": "3+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    },
+    {
+      "name": "Assault Canon",
+      "range": "24\"",
+      "a": "6",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Hand flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Chainfist",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Terminator Sergeant",
+      "wargear": [
+        "Storm bolter",
+        "Power weapon"
+      ]
+    },
+    {
+      "modelName": "Terminators",
+      "wargear": [
+        "Storm bolter",
+        "Power fist"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

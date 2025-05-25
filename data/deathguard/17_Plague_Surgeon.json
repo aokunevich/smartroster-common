@@ -1,0 +1,73 @@
+{
+  "version": "10",
+  "id": "672d1e60-5d24-4186-8b0a-ab99ee7c712e",
+  "faction": "DeathGuard",
+  "name": "Plague Surgeon",
+  "keywords": [
+    "Character"
+  ],
+  "prices": [
+    {
+      "count": 1,
+      "price": 65
+    }
+  ],
+  "m": "5\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Plague Surgeon",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Plague bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Balesword",
+      "range": "Melee",
+      "a": "4",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Plague Surgeon",
+      "wargear": [
+        "Plague bolt pistol",
+        "Balesword"
+      ]
+    }
+  ],
+
+  "leaderOptions": {
+    "units": [
+      "Plague Marines"
+    ],
+    "pair": [
+      "Foul Blightspawn",
+      "Biologus Putrifier",
+      "Tallyman",
+      "Noxious Blightbringer"
+    ]
+  }
+}

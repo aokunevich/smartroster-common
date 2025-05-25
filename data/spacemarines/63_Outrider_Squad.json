@@ -1,0 +1,133 @@
+{
+  "id" : "41064602-46ea-472a-bb3c-7ce9e36c2727",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 80
+    },
+    {
+      "count": 6,
+      "price": 160
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Outrider Squad",
+  "m": "12\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "4/8",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Outrider Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Outriders",
+      "countMin": 2,
+      "countMax": 5
+    },
+    {
+      "name": "Invader ATV",
+      "countMin": 0,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Twin bolt rifle",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Multi-melta",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-4",
+      "d": "D6"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "range": "18\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "range": "24\"",
+      "a": "8",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes chainsword",
+      "range": "Melee",
+      "a": "5",
+      "ws": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Outrider Sergeant",
+      "wargear": [
+        "Heavy bolt pistol",
+        "Twin bolt rifle",
+        "Astartes chainsword"
+      ]
+    },
+    {
+      "modelName": "Outriders",
+      "wargear": [
+        "Heavy bolt pistol",
+        "Twin bolt rifle",
+        "Astartes chainsword"
+      ]
+    },
+    {
+      "modelName": "Invader ATV",
+      "wargear": [
+        "Heavy bolt pistol",
+        "Twin bolt rifle",
+        "Onslaught gatling cannon",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

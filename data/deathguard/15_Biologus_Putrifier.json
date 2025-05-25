@@ -1,0 +1,83 @@
+{
+  "version": "10",
+  "id": "27ab62d1-b792-4172-a560-ede91e312979",
+  "faction": "DeathGuard",
+  "name": "Biologus Putrifier",
+  "keywords": [
+    "Character"
+  ],
+  "prices": [
+    {
+      "count": 1,
+      "price": 50
+    }
+  ],
+  "m": "5\"",
+  "t": "5",
+  "sv": "3",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Biologus Putrifier",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Hyper blight grenades",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "3++",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Injector pistol",
+      "range": "3\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "3"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Plague knives",
+      "range": "Melee",
+      "a": "4",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Biologus Putrifier",
+      "wargear": [
+        "Hyper blight grenades",
+        "Injector pistol",
+        "Plague knives"
+      ]
+    }
+  ],
+
+  "leaderOptions": {
+    "units": [
+      "Plague Marines"
+    ],
+    "pair": [
+      "Foul Blightspawn",
+      "Tallyman",
+      "Plague Surgeon",
+      "Noxious Blightbringer"
+    ]
+  }
+}

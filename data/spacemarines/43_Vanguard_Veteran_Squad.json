@@ -1,0 +1,131 @@
+{
+  "id" : "94d496d0-563d-4f2a-9bfd-bd9a844fb11d",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 120
+    },
+    {
+      "count": 10,
+      "price": 240
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Vanguard Veteran Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Vanguard Veteran Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Vanguard Veterans",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Grav-gun",
+      "range": "18\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Hand flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "range": "6\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-4",
+      "d": "D3"
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "2"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heirloom weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Vanguard Veteran Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Heirloom weapon"
+      ]
+    },
+    {
+      "modelName": "Vanguard Veterans",
+      "wargear": [
+        "Bolt pistol",
+        "Heirloom weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id" : "b66773d7-8e75-4045-9aa0-faa23cb66338",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 75
+    },
+    {
+      "count": 10,
+      "price": 150
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Scout Sniper Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "4+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Scout Sniper Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Scout Snipers",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Scout sniper rifle",
+      "range": "36\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Missile launcher",
+      "profiles": [
+        {
+          "name": "frag",
+          "range": "48\"",
+          "a": "D6",
+          "bs": "4+",
+          "s": "4",
+          "ap": "0",
+          "d": "1"
+        },
+        {
+          "name": "krak",
+          "range": "48\"",
+          "a": "1",
+          "bs": "4+",
+          "s": "9",
+          "ap": "-2",
+          "d": "D6"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Scout Sniper Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Sniper rifle",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Scout Snipers",
+      "wargear": [
+        "Bolt pistol",
+        "Sniper rifle",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

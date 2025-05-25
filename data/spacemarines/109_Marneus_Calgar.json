@@ -1,0 +1,92 @@
+{
+  "id" : "86447a37-d42b-47d0-8f61-2ef77ede3221",
+  "keywords" : ["Character","Epic Hero"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 3,
+      "price": 185
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Marneus Calgar",
+  "m": "6\"",
+  "t": "6/4",
+  "sv": "2+",
+  "w": "6/3",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Marneus Calgar",
+      "countMin": 1,
+      "countMax": 1
+    },
+   {
+      "name": "Victrix Honour Guard",
+      "countMin": 2,
+      "countMax": 2
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Gauntlets of Ultramar",
+      "range": "18\"",
+      "a": "4",
+      "bs": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Gauntlets of Ultramar",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-3",
+      "d": "3"
+    },
+    {
+      "name": "Victrix power sword",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Marneus Calgar",
+      "wargear": [
+        "Gauntlets of Ultramar"
+      ]
+    },
+    {
+      "modelName": "Victrix Honour Guard",
+      "wargear": [
+        "Victrix power sword"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Aggressor Squad",
+      "Assault Intercessor Squad",
+      "Bladeguard Veteran Squad",
+      "Eradicator Squad",
+      "Heavy Intercessor Squad",
+      "Infernus Squad",
+      "Intercessor Squad",
+      "Stenguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

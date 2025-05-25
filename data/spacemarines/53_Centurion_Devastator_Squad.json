@@ -1,0 +1,119 @@
+{
+  "id" : "a2d9b2f3-01a3-4c9b-a3e0-dad34c0e6c8c",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 3,
+      "price": 185
+    },
+    {
+      "count": 6,
+      "price": 370
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Centurion Devastator Squad",
+  "m": "4\"",
+  "t": "7",
+  "sv": "2+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "2",
+  "composition": [
+    {
+      "name": "Devastator Centurion Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Devastator Centurions",
+      "countMin": 2,
+      "countMax": 5
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Centurion bolters",
+      "range": "24\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Centurion missile launcher",
+      "range": "36\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "9",
+      "ap": "-2",
+      "d": "D3"
+    },
+    {
+      "name": "Grav-cannon",
+      "range": "24\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "3"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Twin lascannon",
+      "range": "48\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Centurion fists",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Devastator Centurion Sergeant",
+      "wargear": [
+        "Grav-cannon",
+        "Centurion bolters",
+        "Centurion fists"
+      ]
+    },
+    {
+      "modelName": "Devastator Centurions",
+      "wargear": [
+        "Grav-cannon",
+        "Centurion bolters",
+        "Centurion fists"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

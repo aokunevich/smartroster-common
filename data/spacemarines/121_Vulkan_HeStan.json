@@ -1,0 +1,79 @@
+{
+  "id" : "c0da7a72-298e-4fca-b7a3-d186014180f9",
+  "keywords" : ["Character","Epic Hero"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 100
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Vulcan He'Stan",
+  "m": "6\"",
+  "t": "4",
+  "sv": "2+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Vulcan He'Stan",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Gauntlet of the Forge",
+      "range": "12\"",
+      "a": "D6+3",
+      "bs": "N/A",
+      "s": "6",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Spear of Vulkan",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "6",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Vulcan He'Stan",
+      "wargear": [
+        "Bolt pistol",
+        "Gauntlet of the Forge",
+        "Spear of Vulkan"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Squad",
+      "Command Squad",
+      "Infernus Squad",
+      "Tactical Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

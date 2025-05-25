@@ -1,0 +1,76 @@
+{
+  "id" : "2545f07c-64b3-42db-8fdd-2ad940ea8d5e",
+  "keywords" : ["Dedicated Transport"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 70
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Land Speeder Storm",
+  "m": "14\"",
+  "t": "7",
+  "sv": "4+",
+  "w": "7",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Land Speeder Storm",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Cerberus launcher",
+      "range": "18\"",
+      "a": "D6+3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Land Speeder Storm",
+      "wargear": [
+        "Cerberus launcher",
+        "Heavy bolter",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

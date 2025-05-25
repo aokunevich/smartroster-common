@@ -1,0 +1,179 @@
+{
+  "id" : "03a80b95-0023-4327-9a53-d4ca194711d3",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 80
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Captain in Gravis Armour",
+  "m": "6\"",
+  "t": "6",
+  "sv": "3+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Captain in Gravis Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Boltstorm gaunglet",
+      "range": "12\"",
+      "a": "3",
+      "bs": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Master-crafted heavy bolt rifle",
+      "range": "30\"",
+      "a": "2",
+      "bs": "2+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Master-crafted power weapon",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "5",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Power fist",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Relic blade",
+      "range": "Melee",
+      "a": "2",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Relic chainsword",
+      "range": "Melee",
+      "a": "3",
+      "ws": "2+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Relic fist",
+      "range": "Melee",
+      "a": "1",
+      "ws": "2+",
+      "s": "8",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "type": "SET",
+      "names": [
+        "Master-crafted heavy bolt rifle",
+        "Master-crafted power weapon"
+      ],
+      "options": [
+        {
+          "name": "Boltstorm gaunglet",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1
+        },
+        {
+          "name": "Relic chainsword",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "SET",
+      "names": [
+        "Master-crafted heavy bolt rifle",
+        "Master-crafted power weapon"
+      ],
+      "options": [
+        {
+          "name": "Boltstorm gaunglet",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1
+        },
+        {
+          "name": "Relic blade",
+          "count": 1
+        }
+      ]
+    }
+,
+    {
+      "type": "SET",
+      "names": [
+        "Master-crafted heavy bolt rifle",
+        "Master-crafted power weapon"
+      ],
+      "options": [
+        {
+          "name": "Boltstorm gaunglet",
+          "count": 1
+        },
+        {
+          "name": "Power fist",
+          "count": 1
+        },
+        {
+          "name": "Relic fist",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Captain in Gravis Armour",
+      "wargear": [
+        "Master-crafted heavy bolt rifle",
+        "Master-crafted power weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Aggresson Squad",
+      "Eradicator Squad",
+      "Heavy Intercessor Squad"
+    ],
+    "pair": [
+    ],
+    "rules": [
+    ]
+  }
+}

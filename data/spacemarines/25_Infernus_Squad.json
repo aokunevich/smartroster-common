@@ -1,0 +1,92 @@
+{
+  "id" : "60fbb91d-0314-44c5-9cc2-ec7ede86889e",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 80
+    },
+    {
+      "count": 10,
+      "price": 160
+    }
+  ],
+  "version": "10",
+  "faction" : "SpaceMarines",
+  "name": "Infernus Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Infernus Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Infernus Marines",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Pyreblaster",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Infernus Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Pyreblaster",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Infernus Marines",
+      "wargear": [
+        "Bolt pistol",
+        "Pyreblaster",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

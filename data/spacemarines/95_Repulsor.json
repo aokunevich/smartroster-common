@@ -1,0 +1,114 @@
+{
+  "id" : "1671c486-5c86-4c9a-9f85-06816af3ab37",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 190
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Repulsor",
+  "m": "10\"",
+  "t": "12",
+  "sv": "3+",
+  "w": "16",
+  "ld": "6+",
+  "oc": "5",
+  "composition": [
+    {
+      "name": "Repulsor",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "range": "24\"",
+      "a": "12",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Hunter-slayer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+   {
+      "name": "Las-talon",
+      "range": "36\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "10",
+      "ap": "-3",
+      "d": "D6+1"
+    },
+   {
+      "name": "Repulsor defensive array",
+      "range": "24\"",
+      "a": "18",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Twin lascannon",
+      "range": "48\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "12",
+      "ap": "-3",
+      "d": "D6+1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "6",
+      "ws": "4+",
+      "s": "8",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Repulsor",
+      "wargear": [
+        "Heavy onslaught gatling cannon",
+        "Hunter-slayer missile",
+        "Repulsor defensive array",
+        "Twin heavy bolter",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

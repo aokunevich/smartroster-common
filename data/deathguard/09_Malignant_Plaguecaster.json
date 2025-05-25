@@ -1,0 +1,91 @@
+{
+  "version": "10",
+  "id" : "3c878207-e620-4a96-a93e-cc74b3c34d2a",
+  "faction": "DeathGuard",
+  "name": "Malignant Plaguecaster",
+  "keywords" : ["Character"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 65
+    }
+  ],
+  "m": "5\"",
+  "t": "5",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Malignant Plaguecaster",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Plague bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Plague wind",
+      "profiles": [
+        {
+          "name": "witchfire",
+          "range": "12\"",
+          "a": "D6",
+          "bs": "N/A",
+          "s": "4",
+          "ap": "-1",
+          "d": "D3"
+        },
+        {
+          "name": "focused witchfire",
+          "range": "12\"",
+          "a": "D6+3",
+          "bs": "N/A",
+          "s": "6",
+          "ap": "-2",
+          "d": "D3"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Corrupted stuff",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "D3"
+    }
+  ],
+  "wargearOptions": [
+
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Malignant Plaguecaster",
+      "wargear": [
+        "Plague bolt pistol",
+        "Plague wind",
+        "Corrupted staff"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Plague marines"
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id" : "f3b6f21a-1218-44ad-85ca-1d2eb75f8a1a",
+  "keywords" : [],
+  "prices": [
+    {
+      "count": 5,
+      "price": 80
+    },
+    {
+      "count": 10,
+      "price": 160
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Incursor Squad",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Incursor Sergeant",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Incursors",
+      "countMin": 4,
+      "countMax": 9
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Oculus bolt carbine",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Bolt rifle",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Paired combat blades",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Incursor Sergeant",
+      "wargear": [
+        "Bolt pistol",
+        "Oculus bolt carbine",
+        "Paired combat blades"
+      ]
+    },
+    {
+      "modelName": "Incursors",
+      "wargear": [
+        "Bolt pistol",
+        "Oculus bolt carbine",
+        "Paired combat blades"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id" : "7f56a4e6-46d4-48a8-9af5-5f095c3d954f",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 175
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Vindicator",
+  "m": "10\"",
+  "t": "10",
+  "sv": "3+",
+  "w": "12",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Vindicator",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Demolisher cannon",
+      "range": "24\"",
+      "a": "D6+3",
+      "bs": "3+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "range": "48\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "14",
+      "ap": "-3",
+      "d": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored tracks",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Vindicator",
+      "wargear": [
+        "Demolisher cannon",
+        "Armored tracks"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

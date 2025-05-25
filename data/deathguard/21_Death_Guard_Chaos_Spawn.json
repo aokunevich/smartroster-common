@@ -1,0 +1,55 @@
+{
+  "version": "10",
+  "id": "59d273f4-552b-4e2d-9eb2-1dde81e64d1e",
+  "faction": "DeathGuard",
+  "name": "Death Guard Chaos Spawn",
+  "keywords": [],
+  "prices": [
+    {
+      "count": 2,
+      "price": 70
+    }
+  ],
+  "m": "8\"",
+  "t": "5",
+  "sv": "4+",
+  "w": "4",
+  "ld": "7+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Death Guard Chaos Spawn",
+      "countMin": 2,
+      "countMax": 2
+    }
+  ],
+  "rangedWeapons": [
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hideous mutations",
+      "range": "Melee",
+      "a": "D6+2",
+      "bs": "4+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Death Guard Chaos Spawn",
+      "wargear": [
+        "Hideous mutations",
+        "Plague combi-bolter",
+        "Force weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [],
+    "pair": []
+  }
+}

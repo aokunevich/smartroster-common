@@ -1,0 +1,83 @@
+{
+  "id" : "f7ade3d5-5577-4de9-9dd9-5f048afa87f4",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 80
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Captain in Phobos Armour",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "5",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Captain in Phobos Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Instigator bolt carbine",
+      "range": "24\"",
+      "a": "1",
+      "bs": "2+",
+      "s": "4",
+      "ap": "-2",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Combat knife",
+      "range": "Melee",
+      "a": "6",
+      "ws": "2+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Captain in Phobos Armour",
+      "wargear": [
+        "Bolt pistol",
+        "Instigator bolt carbine",
+        "Combat knife"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Eliminator Squad",
+      "Incursor Squad",
+      "Infiltrator Squad",
+      "Reiver Squad",
+      "Scout Squad",
+      "Scout Sniper Squad"
+    ],
+    "pair": [
+    ],
+    "rules": [
+    ]
+  }
+}

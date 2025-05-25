@@ -1,0 +1,89 @@
+{
+  "id" : "f3d1bd29-f22d-4bea-af5a-4d31716b0076",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 0
+    }
+  ],
+
+  "faction" : "SpaceMarines",
+  "name": "Primaris Techmarine",
+  "m": "6\"",
+  "t": "4",
+  "sv": "2+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Primaris Techmarine",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Forge Bolter",
+      "range": "24\"",
+      "a": "3",
+      "bs": "2+",
+      "s": "5",
+      "ap": "-1",
+      "d": "2"
+    },
+   {
+      "name": "Grav-pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Omnissian power axe",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "6",
+      "ap": "-2",
+      "d": "2"
+    },
+    {
+      "name": "Servo-arm",
+      "range": "Melee",
+      "a": "1",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Primaris Techmarine",
+      "wargear": [
+        "Forge bolter",
+        "Grav-pistol",
+        "Omnissian power axe",
+        "Servo-arm"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Intercessor Squad",
+      "Astartes Servitors",
+      "Itercessor Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

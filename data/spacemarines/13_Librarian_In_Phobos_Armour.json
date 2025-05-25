@@ -1,0 +1,94 @@
+{
+  "id" : "b4560300-af49-460c-a200-3ac3f0dc4cab",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 70
+    }
+  ],
+  "faction" : "SpaceMarines",
+  "name": "Librarian in Phobos Armour",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Librarian in Phobos Armour",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Smite",
+      "profiles": [
+        {
+          "name": "witchfire",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "5",
+          "ap": "-1",
+          "d": "D3"
+        },
+        {
+          "name": "focused",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "6",
+          "ap": "-2",
+          "d": "D3"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Force weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "D3"
+    }
+  ],
+  "wargearOptions": [
+
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Librarian in Phobos Armour",
+      "wargear": [
+        "Bolt pistol",
+        "Smite",
+        "Force weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Eliminator Squad",
+      "Incursor Squad",
+      "Infiltrator Squad",
+      "Reiver Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

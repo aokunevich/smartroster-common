@@ -1,0 +1,79 @@
+{
+  "version": "10",
+  "id": "dfa817bb-8e26-48a3-9eae-7f3bc0c80612",
+  "faction" : "DeathGuard",
+  "name": "Death Guard Daemon Prince",
+  "keywords" : ["Character"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 160
+    }
+  ],
+  "m": "7\"",
+  "t": "11",
+  "sv": "2+",
+  "w": "10",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Death Guard Daemon Prince",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Plague spewer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "5",
+      "ap": "-1",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hellforged weapons",
+      "profiles": [
+        {
+          "name": "strike",
+          "range": "Melee",
+          "a": "6",
+          "ws": "2+",
+          "s": "8",
+          "ap": "-2",
+          "d": "3"
+        },
+        {
+          "name": "sweep",
+          "range": "Melee",
+          "a": "14",
+          "ws": "2+",
+          "s": "6",
+          "ap": "0",
+          "d": "1"
+        }
+      ]
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Death Guard Daemon Prince",
+      "wargear": [
+        "Plague spewer",
+        "Hellforged weapons"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

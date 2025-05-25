@@ -1,0 +1,200 @@
+{
+  "id" : "08d91bc7-6b8e-4055-9d88-54313a9defe4",
+  "keywords" : ["Character"],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 65
+    }
+  ],
+
+  "faction" : "SpaceMarines",
+  "name": "Librarian",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "4",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Librarian",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Boltgun",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Combi-weapon",
+      "range": "24\"",
+      "a": "1",
+      "bs": "4+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Grav-pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Hand flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "3",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "range": "6\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-4",
+      "d": "D3"
+    },
+    {
+      "name": "Storm bolter",
+      "range": "24\"",
+      "a": "2",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Smite",
+      "profiles": [
+        {
+          "name": "witchfire",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "5",
+          "ap": "-1",
+          "d": "D3"
+        },
+        {
+          "name": "focused",
+          "range": "24\"",
+          "a": "D6",
+          "bs": "3+",
+          "s": "6",
+          "ap": "-2",
+          "d": "D3"
+        }
+      ]
+    },
+    {
+      "name": "Plasma pistol",
+      "profiles": [
+        {
+          "name": "standard",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "7",
+          "ap": "-2",
+          "d": "1"
+        },
+        {
+          "name": "supercharge",
+          "range": "12\"",
+          "a": "1",
+          "bs": "3+",
+          "s": "8",
+          "ap": "-3",
+          "d": "D3"
+        }
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Force weapon",
+      "range": "Melee",
+      "a": "4",
+      "ws": "3+",
+      "s": "6",
+      "ap": "-1",
+      "d": "D3"
+    }
+  ],
+  "wargearOptions": [
+    {
+      "name": "Bolt pistol",
+      "options" : [
+        {
+          "name": "Boltgun",
+          "count": 1
+        },
+        {
+          "name": "Combi-weapon",
+          "count": 1
+        },
+        {
+          "name": "Grav-pistol",
+          "count": 1
+        },
+        {
+          "name": "Hand flamer",
+          "count": 1
+        },
+        {
+          "name": "Plasma pistol",
+          "count": 1
+        },
+        {
+          "name": "Storm bolter",
+          "count": 1
+        }
+      ]
+    }
+
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Librarian",
+      "wargear": [
+        "Smite",
+        "Force weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Assault Squad",
+      "Command Squad",
+      "Tactical Squad",
+      "Vanguard Veteran Squad"
+    ],
+    "pair": [
+    ]
+  }
+}

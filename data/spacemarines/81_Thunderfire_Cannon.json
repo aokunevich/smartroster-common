@@ -1,0 +1,117 @@
+{
+  "id" : "f9e94d46-5e8c-4948-a006-e7fd6b45ade7",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 2,
+      "price": 90
+    }
+  ],
+
+  "faction": "SpaceMarines",
+  "name": "Thunderfire Cannon",
+  "m": "6\"",
+  "t": "4",
+  "sv": "3+",
+  "w": "2",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Techmarine Gunner",
+      "countMin": 1,
+      "countMax": 1
+    },
+    {
+      "name": "Thunderfire Cannon",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "range": "12\"",
+      "a": "1",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Flamer",
+      "range": "12\"",
+      "a": "D6",
+      "bs": "N/A",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Thunderfire cannon",
+      "range": "48\"",
+      "a": "D6+4",
+      "bs": "3+",
+      "s": "5",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "range": "Melee",
+      "a": "3",
+      "ws": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Gunner's servo-arms",
+      "range": "Melee",
+      "a": "2",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "3"
+    },
+    {
+      "name": "Plasma cutter",
+      "range": "Melee",
+      "a": "2",
+      "ws": "3+",
+      "s": "8",
+      "ap": "-2",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Techmarine Gunner",
+      "wargear": [
+        "Bolt pistol",
+        "Flamer",
+        "Plasma cutter",
+        "Gunner's servo-arms",
+        "Close combat weapon"
+      ]
+    },
+    {
+      "modelName": "Thunderfire Cannon",
+      "wargear": [
+        "Thunderfire cannon",
+        "Close combat weapon"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

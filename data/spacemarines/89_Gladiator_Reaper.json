@@ -1,0 +1,93 @@
+{
+  "id" : "433d1e15-a054-48ca-9e14-849fca907570",
+  "keywords" : [],
+  "version": "10",
+  "prices": [
+    {
+      "count": 1,
+      "price": 150
+    }
+  ],
+  "faction": "SpaceMarines",
+  "name": "Gladiator Reaper",
+  "m": "10\"",
+  "t": "10",
+  "sv": "3+",
+  "w": "12",
+  "ld": "6+",
+  "oc": "3",
+  "composition": [
+    {
+      "name": "Gladiator Reaper",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Icarus rocket pod",
+      "range": "24\"",
+      "a": "D3",
+      "bs": "3+",
+      "s": "8",
+      "ap": "-1",
+      "d": "2"
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "range": "36\"",
+      "a": "3",
+      "bs": "3+",
+      "s": "4",
+      "ap": "0",
+      "d": "1"
+    },
+    {
+      "name": "Tempest bolter",
+      "range": "24\"",
+      "a": "4",
+      "bs": "3+",
+      "s": "4",
+      "ap": "-1",
+      "d": "1"
+    },
+    {
+      "name": "Twin heavy onslaught gatling cannon",
+      "range": "24\"",
+      "a": "12",
+      "bs": "3+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armored hull",
+      "range": "Melee",
+      "a": "3",
+      "ws": "4+",
+      "s": "6",
+      "ap": "0",
+      "d": "1"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Gladiator Reaper",
+      "wargear": [
+        "Tempest bolter",
+        "Twin heavy onslaught cannon",
+        "Armored hull"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+    ],
+    "pair": [
+    ]
+  }
+}

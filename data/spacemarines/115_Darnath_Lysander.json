@@ -1,0 +1,59 @@
+{
+  "id" : "f5d9aa1f-e3db-4cde-b531-d0fb844e1b25",
+  "keywords" : ["Character","Epic Hero"],
+  "prices": [
+    {
+      "count": 1,
+      "price": 100
+    }
+  ],
+  "version": "10",
+  "faction": "SpaceMarines",
+  "name": "Darnath Lysander",
+  "m": "5\"",
+  "t": "5",
+  "sv": "2+",
+  "w": "6",
+  "ld": "6+",
+  "oc": "1",
+  "composition": [
+    {
+      "name": "Darnath Lysander",
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "rangedWeapons": [
+
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Fist of Dom",
+      "range": "Melee",
+      "a": "5",
+      "ws": "2+",
+      "s": "10",
+      "ap": "-3",
+      "d": "3"
+    }
+  ],
+  "wargearOptions": [
+  ],
+  "defaultWargear": [
+    {
+      "modelName": "Darnath Lysander",
+      "wargear": [
+        "Fist of Dom"
+      ]
+    }
+  ],
+  "leaderOptions": {
+    "units": [
+      "Relic Terminator Squad",
+      "Terminator Assault Squad",
+      "Terminator Squad"
+    ],
+    "pair": [
+    ]
+  }
+}
